@@ -1,0 +1,49 @@
+2026-01-28 05:37:13 - [0;34m=== MySQL Dump Started ===[0m
+2026-01-28 05:37:13 - [0;34mDate: Wed Jan 28 05:37:13 UTC 2026[0m
+2026-01-28 05:37:13 - [0;32mlftp available[0m
+2026-01-28 05:37:13 - [1;33mS3 upload disabled - skipping AWS CLI check[0m
+2026-01-28 05:37:13 - [0;32mEnvironment ready[0m
+2026-01-28 05:37:13 - [0;34mTesting SSH...[0m
+2026-01-28 05:37:13 - [0;34mTesting SSH: AMM09 (amm09.airlink.com)[0m
+2026-01-28 05:37:13 - [0;32mSSH successful[0m
+2026-01-28 05:37:13 - [0;34mTesting SSH: AMM08 (amm08.airlink.com)[0m
+2026-01-28 05:37:14 - [0;32mSSH successful[0m
+2026-01-28 05:37:14 - [0;34mTesting SSH: AMM07 (amm07.airlink.com)[0m
+2026-01-28 05:37:14 - [0;32mSSH successful[0m
+2026-01-28 05:37:14 - [0;34mTesting SSH: AMM06 (amm06.airlink.com)[0m
+2026-01-28 05:37:14 - [0;32mSSH successful[0m
+2026-01-28 05:37:14 - [0;34mTesting SSH: AMM05 (amm05.airlink.com)[0m
+2026-01-28 05:37:14 - [0;32mSSH successful[0m
+2026-01-28 05:37:14 - [0;34mTesting SSH: AMM04 (amm04.airlink.com)[0m
+2026-01-28 05:37:15 - [0;32mSSH successful[0m
+2026-01-28 05:37:15 - [0;34mTesting SSH: AMM03 (amm03.airlink.com)[0m
+2026-01-28 05:37:15 - [0;32mSSH successful[0m
+2026-01-28 05:37:15 - [0;34mTesting SSH: AMM02 (amm02.airlink.com)[0m
+2026-01-28 05:37:15 - [0;32mSSH successful[0m
+2026-01-28 05:37:15 - [0;34mTesting SSH: AMM01 (amm01.airlink.com)[0m
+2026-01-28 05:37:16 - [0;32mSSH successful[0m
+2026-01-28 05:37:16 - [0;34mTesting SSH: AMM50 (amm50.airlink.com)[0m
+2026-01-28 05:37:17 - [0;32mSSH successful[0m
+2026-01-28 05:37:17 - [0;34mTesting SSH: AMM52 (amm52.airlink.com)[0m
+2026-01-28 05:37:19 - [0;32mSSH successful[0m
+2026-01-28 05:37:19 - [0;34mTesting SSH: AMM10 (amm10.airlink.com)[0m
+2026-01-28 05:37:19 - [0;32mSSH successful[0m
+2026-01-28 05:37:19 - [0;34mTesting SSH: AMM11 (amm11.airlink.com)[0m
+2026-01-28 05:37:19 - [0;32mSSH successful[0m
+2026-01-28 05:37:19 - [0;34mTesting SSH: AMM87 (amm87.airlink.com)[0m
+2026-01-28 05:37:20 - [0;32mSSH successful[0m
+2026-01-28 05:37:20 - [0;34mTesting SSH: AMM86 (amm86.airlink.com)[0m
+2026-01-28 05:37:20 - [0;32mSSH successful[0m
+2026-01-28 05:37:20 - [0;34mTesting SSH: AMM84 (amm84.airlink.com)[0m
+2026-01-28 05:37:20 - [0;32mSSH successful[0m
+2026-01-28 05:37:20 - [0;34mTesting SSH: AMM82 (amm82.airlink.com)[0m
+2026-01-28 05:37:21 - [0;32mSSH successful[0m
+2026-01-28 05:37:21 - [0;34mTesting SSH: AMM81 (amm81.airlink.com)[0m
+2026-01-28 05:37:21 - [0;32mSSH successful[0m
+2026-01-28 05:37:21 - [0;34mTesting SSH: AMM89 (amm89.airlink.com)[0m
+2026-01-28 05:37:21 - [0;32mSSH successful[0m
+2026-01-28 05:37:21 - [0;34mTesting SSH: AMM88 (amm88.airlink.com)[0m
+2026-01-28 05:37:22 - [0;32mSSH successful[0m
+2026-01-28 05:37:22 - [0;34mTesting SSH: AMM90 (amm90.airlink.com)[0m
+2026-01-28 05:37:22 - [0;32mSSH successful[0m
+2026-01-28 05:37:22 - [0;34mResults: 21/21 OK[0m

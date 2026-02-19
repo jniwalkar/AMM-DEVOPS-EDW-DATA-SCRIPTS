@@ -1,0 +1,52 @@
+2026-01-08 12:21:33 - [0;34m=== MySQL Dump Started ===[0m
+2026-01-08 12:21:33 - [0;34mDate: Thu Jan  8 12:21:33 UTC 2026[0m
+2026-01-08 12:21:33 - [0;32mlftp available[0m
+2026-01-08 12:21:33 - [0;32mEnvironment ready[0m
+2026-01-08 12:21:33 - [0;34mCleaning up SFTP data older than 3 months...[0m
+2026-01-08 12:21:33 - [0;34mDeleting files older than 20251010 from SFTP[0m
+2026-01-08 12:22:31 - [1;33mCleanup had some issues[0m
+2026-01-08 12:22:31 - [1;33m===== Processing: AMM87 (amm87.airlink.com) =====[0m
+2026-01-08 12:22:31 - [0;34mTesting SSH: AMM87 (amm87.airlink.com)[0m
+2026-01-08 12:22:31 - [0;32mSSH successful[0m
+2026-01-08 12:22:31 - [0;34mCreating remote script...[0m
+2026-01-08 12:22:31 - [0;34mCopying script...[0m
+2026-01-08 12:22:31 - [0;32mScript copied[0m
+2026-01-08 12:22:31 - [0;34mExecuting queries...[0m
+2026-01-08 12:23:54 - [0;34mRemote output:[0m
+2026-01-08 12:23:54 - [0;34m  >> Any or all uses of this system and all files on this system may be[0m
+2026-01-08 12:23:54 - [0;34m  >> officials of other agencies, both domestic and foreign.[0m
+2026-01-08 12:23:54 - [0;34m  >> By using this system, the user consents to such interception, monitoring,[0m
+2026-01-08 12:23:54 - [0;34m  >> recording, copying, auditing, inspection, and disclosure at the discretion of[0m
+2026-01-08 12:23:55 - [0;34m  >> this system you indicate your awareness of and consent to these terms and[0m
+2026-01-08 12:23:55 - [0;34m  >> conditions of use. LOG OFF IMMEDIATELY if you do not agree to the condition[0m
+2026-01-08 12:23:55 - [0;34m  >> stated in this warning.[0m
+2026-01-08 12:23:55 - [0;34m  >> <13>Jan  8 04:22:31 imtadmin: Login as imtadmin by sahire via  172.31.5.208 44508 172.31.10.7 2222[0m
+2026-01-08 12:23:55 - [0;34m  >> === Starting Export on AMM87 ===[0m
+2026-01-08 12:23:55 - [0;34m  >> Password OK[0m
+2026-01-08 12:23:55 - [0;34m  >> Testing MySQL...[0m
+2026-01-08 12:23:55 - [0;34m  >> MySQL connection: SUCCESS[0m
+2026-01-08 12:23:55 - [0;34m  >> Running: Group_Hierarchy_Path[0m
+2026-01-08 12:23:55 - [0;34m  >> SUCCESS: Group_Hierarchy_Path (32 rows)[0m
+2026-01-08 12:23:55 - [0;34m  >> Running: Gateway_Count_By_Group[0m
+2026-01-08 12:23:55 - [0;34m  >> SUCCESS: Gateway_Count_By_Group (1903756 rows)[0m
+2026-01-08 12:23:55 - [0;34m  >> Running: User_List_With_Groups[0m
+2026-01-08 12:23:55 - [0;34m  >> NO_DATA: User_List_With_Groups (empty)[0m
+2026-01-08 12:23:55 - [0;34m  >> QUERY_NODATA_User_List_With_Groups[0m
+2026-01-08 12:23:55 - [0;34m  >> TSV files: 3[0m
+2026-01-08 12:23:55 - [0;34m  >> -rw-r----- 1 imtadmin imtadmin  72M Jan  8 04:23 /tmp/Gateway_Count_By_Group_AMM87_20260108_122133.tsv[0m
+2026-01-08 12:23:55 - [0;34m  >> -rw-r----- 1 imtadmin imtadmin 1.2K Jan  8 04:22 /tmp/Group_Hierarchy_Path_AMM87_20260108_122133.tsv[0m
+2026-01-08 12:23:55 - [0;34m  >> -rw-r----- 1 imtadmin imtadmin   18 Jan  8 04:23 /tmp/User_List_With_Groups_AMM87_20260108_122133.tsv[0m
+2026-01-08 12:23:55 - [0;34m  >> SUCCESS: Results packaged[0m
+2026-01-08 12:23:55 - [0;34m  >> DUMP_FILE: /tmp/mysql_results_AMM87_20260108_122133.tar.gz[0m
+2026-01-08 12:23:55 - [0;34m  >> FILE_SIZE: 8.3M[0m
+2026-01-08 12:23:55 - [0;34mAnalysis: NoData=1, Errors=0[0m
+2026-01-08 12:23:55 - [0;34mDownloading tar...[0m
+2026-01-08 12:23:55 - [0;32mDownloaded (8.3M)[0m
+2026-01-08 12:23:56 - [0;34mCreating Excel for AMM87...[0m
+2026-01-08 12:30:27 - [0;32mExcel created[0m
+2026-01-08 12:30:27 - Uploading to SFTP: ftp.semtech.com/amm-mysql-dumps/AMM87_20260108_122356.xlsx
+2026-01-08 12:30:56 - SFTP upload successful
+2026-01-08 12:30:56 - [0;32m✓ Done: AMM87[0m
+2026-01-08 12:30:56 - Email summary sent to sahire@semtech.com
+2026-01-08 12:30:56 - [0;32mEmail summary sent to sahire@semtech.com[0m
+2026-01-08 12:30:56 - [0;32m=== Done ===[0m

@@ -1,0 +1,37 @@
+2026-01-08 12:33:12 - [0;34m=== MySQL Dump Started ===[0m
+2026-01-08 12:33:12 - [0;34mDate: Thu Jan  8 12:33:12 UTC 2026[0m
+2026-01-08 12:33:12 - [0;32mlftp available[0m
+2026-01-08 12:33:12 - [1;33mS3 upload disabled - skipping AWS CLI check[0m
+2026-01-08 12:33:12 - [0;32mEnvironment ready[0m
+2026-01-08 12:33:12 - [0;34mCleaning up SFTP data older than 3 months...[0m
+2026-01-08 12:33:12 - [0;34mDeleting files older than 20251010 from SFTP[0m
+2026-01-08 12:33:16 - [1;33mSFTP cleanup had some issues[0m
+2026-01-08 12:33:16 - [1;33m===== Processing: AMM87 (amm87.airlink.com) =====[0m
+2026-01-08 12:33:16 - [0;34mTesting SSH: AMM87 (amm87.airlink.com)[0m
+2026-01-08 12:33:16 - [0;32mSSH successful[0m
+2026-01-08 12:33:16 - [0;34mCreating remote script...[0m
+2026-01-08 12:33:16 - [0;34mCopying script...[0m
+2026-01-08 12:33:16 - [0;32mScript copied[0m
+2026-01-08 12:33:16 - [0;34mExecuting queries...[0m
+2026-01-08 12:33:56 - [0;34mRemote output:[0m
+2026-01-08 12:33:56 - [0;34m  >> Any or all uses of this system and all files on this system may be[0m
+2026-01-08 12:33:56 - [0;34m  >> officials of other agencies, both domestic and foreign.[0m
+2026-01-08 12:33:56 - [0;34m  >> By using this system, the user consents to such interception, monitoring,[0m
+2026-01-08 12:33:56 - [0;34m  >> recording, copying, auditing, inspection, and disclosure at the discretion of[0m
+2026-01-08 12:33:56 - [0;34m  >> this system you indicate your awareness of and consent to these terms and[0m
+2026-01-08 12:33:56 - [0;34m  >> conditions of use. LOG OFF IMMEDIATELY if you do not agree to the condition[0m
+2026-01-08 12:33:56 - [0;34m  >> stated in this warning.[0m
+2026-01-08 12:33:56 - [0;34m  >> <13>Jan  8 04:33:16 imtadmin: Login as imtadmin by sahire via  172.31.5.208 42648 172.31.10.7 2222[0m
+2026-01-08 12:33:56 - [0;34m  >> === Starting Export on AMM87 ===[0m
+2026-01-08 12:33:56 - [0;34m  >> Password OK[0m
+2026-01-08 12:33:56 - [0;34m  >> Testing MySQL...[0m
+2026-01-08 12:33:56 - [0;34m  >> MySQL connection: SUCCESS[0m
+2026-01-08 12:33:56 - [0;34m  >> Running: Group_Hierarchy_Path[0m
+2026-01-08 12:33:56 - [0;34m  >> SUCCESS: Group_Hierarchy_Path (32 rows)[0m
+2026-01-08 12:33:56 - [0;34m  >> Running: Gateway_Count_By_Group[0m
+2026-01-08 12:33:56 - [0;34m  >> Killed by signal 2.[0m
+2026-01-08 12:33:56 - [0;34mAnalysis: NoData=0, Errors=0[0m
+2026-01-08 12:33:56 - [0;31mRemote script failed[0m
+2026-01-08 12:33:56 - Email summary sent to sahire@semtech.com
+2026-01-08 12:33:56 - [0;32mEmail summary sent to sahire@semtech.com[0m
+2026-01-08 12:33:56 - [0;32m=== Done ===[0m

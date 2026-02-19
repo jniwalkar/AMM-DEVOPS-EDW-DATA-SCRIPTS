@@ -1,0 +1,29 @@
+========================================
+AMM MySQL DB Collection Summary: Jan-2026
+========================================
+Date: Fri Jan  9 05:49:45 UTC 2026
+
+OVERALL:
+Total: 2 | Success: 2 | No Data: 0 | Failed: 0
+Success Rate: 100%
+
+DETAILED STATUS:
+========================================
+
+Server: AMM50 (amm50.airlink.com)
+Status: SUCCESS | SFTP: N/A
+Result: Success with data
+File: SFTP: ftp.semtech.com/amm-mysql-dumps/AMM50_20260109_054914.xlsx (1.7M)
+---
+Server: AMM52 (amm52.airlink.com)
+Status: SUCCESS | SFTP: N/A
+Result: Success with data
+File: SFTP: ftp.semtech.com/amm-mysql-dumps/AMM52_20260109_054939.xlsx (281K)
+---
+
+STORAGE:
+SFTP: sftp://ftp.semtech.com/amm-mysql-dumps/
+S3: DISABLED
+
+Log: /home/sahire/edw-data-scripts/logs/mysql_dump_collection_20260109_054900.log
+========================================

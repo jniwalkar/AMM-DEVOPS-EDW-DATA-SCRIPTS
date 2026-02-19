@@ -1,0 +1,7 @@
+2026-02-02 10:34:44 - [0;34m=== MySQL Dump Started ===[0m
+2026-02-02 10:34:44 - [0;34mDate: Mon Feb  2 10:34:44 UTC 2026[0m
+2026-02-02 10:34:44 - [0;32mlftp available[0m
+2026-02-02 10:34:44 - [1;33mS3 upload disabled - skipping AWS CLI check[0m
+2026-02-02 10:34:45 - [0;32mEnvironment ready[0m
+2026-02-02 10:34:45 - [1;33mNot scheduled run date. Scheduled for 15th[0m
+2026-02-02 10:34:45 - [1;33mUse --force[0m

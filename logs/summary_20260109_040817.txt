@@ -1,0 +1,143 @@
+========================================
+AMM MySQL DB Collection Summary: Jan-2026
+========================================
+Date: Fri Jan  9 05:18:26 UTC 2026
+
+OVERALL:
+Total: 21 | Success: 19 | No Data: 0 | Failed: 2
+Success Rate: 90%
+
+DETAILED STATUS:
+========================================
+
+Server: AMM01 (amm01.airlink.com)
+Status: SUCCESS | SFTP: N/A
+Result: Success with data
+File: S3: s3://mysql-dumps-for-edw-team/Jan-2026/AMM01_20260109_044212.xlsx (5.0M)
+SFTP: ftp.semtech.com/amm-mysql-dumps/AMM01_20260109_044212.xlsx (5.0M)
+---
+Server: AMM02 (amm02.airlink.com)
+Status: SUCCESS | SFTP: N/A
+Result: Success with data
+File: S3: s3://mysql-dumps-for-edw-team/Jan-2026/AMM02_20260109_043907.xlsx (19M)
+SFTP: ftp.semtech.com/amm-mysql-dumps/AMM02_20260109_043907.xlsx (19M)
+---
+Server: AMM03 (amm03.airlink.com)
+Status: SUCCESS | SFTP: N/A
+Result: Success with data
+File: S3: s3://mysql-dumps-for-edw-team/Jan-2026/AMM03_20260109_043641.xlsx (13M)
+SFTP: ftp.semtech.com/amm-mysql-dumps/AMM03_20260109_043641.xlsx (13M)
+---
+Server: AMM04 (amm04.airlink.com)
+Status: SUCCESS | SFTP: N/A
+Result: Success with data
+File: S3: s3://mysql-dumps-for-edw-team/Jan-2026/AMM04_20260109_043200.xlsx (28M)
+SFTP: ftp.semtech.com/amm-mysql-dumps/AMM04_20260109_043200.xlsx (28M)
+---
+Server: AMM05 (amm05.airlink.com)
+Status: SUCCESS | SFTP: N/A
+Result: Success with data
+File: S3: s3://mysql-dumps-for-edw-team/Jan-2026/AMM05_20260109_042635.xlsx (32M)
+SFTP: ftp.semtech.com/amm-mysql-dumps/AMM05_20260109_042635.xlsx (32M)
+---
+Server: AMM06 (amm06.airlink.com)
+Status: SUCCESS | SFTP: N/A
+Result: Success with data
+File: S3: s3://mysql-dumps-for-edw-team/Jan-2026/AMM06_20260109_042449.xlsx (6.3M)
+SFTP: ftp.semtech.com/amm-mysql-dumps/AMM06_20260109_042449.xlsx (6.3M)
+---
+Server: AMM07 (amm07.airlink.com)
+Status: SUCCESS | SFTP: N/A
+Result: Success with data
+File: S3: s3://mysql-dumps-for-edw-team/Jan-2026/AMM07_20260109_042306.xlsx (9.6M)
+SFTP: ftp.semtech.com/amm-mysql-dumps/AMM07_20260109_042306.xlsx (9.6M)
+---
+Server: AMM08 (amm08.airlink.com)
+Status: SUCCESS | SFTP: N/A
+Result: Success with data
+File: S3: s3://mysql-dumps-for-edw-team/Jan-2026/AMM08_20260109_041309.xlsx (61M)
+SFTP: ftp.semtech.com/amm-mysql-dumps/AMM08_20260109_041309.xlsx (61M)
+---
+Server: AMM09 (amm09.airlink.com)
+Status: SUCCESS | SFTP: N/A
+Result: Success with data
+File: S3: s3://mysql-dumps-for-edw-team/Jan-2026/AMM09_20260109_040836.xlsx (15M)
+SFTP: ftp.semtech.com/amm-mysql-dumps/AMM09_20260109_040836.xlsx (15M)
+---
+Server: AMM10 (amm10.airlink.com)
+Status: SUCCESS | SFTP: N/A
+Result: Success with data
+File: S3: s3://mysql-dumps-for-edw-team/Jan-2026/AMM10_20260109_044353.xlsx (41M)
+SFTP: ftp.semtech.com/amm-mysql-dumps/AMM10_20260109_044353.xlsx (41M)
+---
+Server: AMM11 (amm11.airlink.com)
+Status: SUCCESS | SFTP: N/A
+Result: Success with data
+File: S3: s3://mysql-dumps-for-edw-team/Jan-2026/AMM11_20260109_045030.xlsx (3.1M)
+SFTP: ftp.semtech.com/amm-mysql-dumps/AMM11_20260109_045030.xlsx (3.1M)
+---
+Server: AMM50 (amm50.airlink.com)
+Status: FAILED | SFTP: N/A
+Result: Failed
+Error: SSH connection failed
+---
+Server: AMM52 (amm52.airlink.com)
+Status: FAILED | SFTP: N/A
+Result: Failed
+Error: SSH connection failed
+---
+Server: AMM81 (amm81.airlink.com)
+Status: SUCCESS | SFTP: N/A
+Result: Success with data
+File: S3: s3://mysql-dumps-for-edw-team/Jan-2026/AMM81_20260109_050159.xlsx (262K)
+SFTP: ftp.semtech.com/amm-mysql-dumps/AMM81_20260109_050159.xlsx (262K)
+---
+Server: AMM82 (amm82.airlink.com)
+Status: SUCCESS | SFTP: N/A
+Result: Success with data
+File: S3: s3://mysql-dumps-for-edw-team/Jan-2026/AMM82_20260109_050127.xlsx (2.9M)
+SFTP: ftp.semtech.com/amm-mysql-dumps/AMM82_20260109_050127.xlsx (2.9M)
+---
+Server: AMM84 (amm84.airlink.com)
+Status: SUCCESS | SFTP: N/A
+Result: Success with data
+File: S3: s3://mysql-dumps-for-edw-team/Jan-2026/AMM84_20260109_050105.xlsx (1.7M)
+SFTP: ftp.semtech.com/amm-mysql-dumps/AMM84_20260109_050105.xlsx (1.7M)
+---
+Server: AMM86 (amm86.airlink.com)
+Status: SUCCESS | SFTP: N/A
+Result: Success with data
+File: S3: s3://mysql-dumps-for-edw-team/Jan-2026/AMM86_20260109_045948.xlsx (7.7M)
+SFTP: ftp.semtech.com/amm-mysql-dumps/AMM86_20260109_045948.xlsx (7.7M)
+---
+Server: AMM87 (amm87.airlink.com)
+Status: SUCCESS | SFTP: N/A
+Result: Success with data
+File: S3: s3://mysql-dumps-for-edw-team/Jan-2026/AMM87_20260109_045227.xlsx (45M)
+SFTP: ftp.semtech.com/amm-mysql-dumps/AMM87_20260109_045227.xlsx (45M)
+---
+Server: AMM88 (amm88.airlink.com)
+Status: SUCCESS | SFTP: N/A
+Result: Success with data
+File: S3: s3://mysql-dumps-for-edw-team/Jan-2026/AMM88_20260109_050739.xlsx (66M)
+SFTP: ftp.semtech.com/amm-mysql-dumps/AMM88_20260109_050739.xlsx (66M)
+---
+Server: AMM89 (amm89.airlink.com)
+Status: SUCCESS | SFTP: N/A
+Result: Success with data
+File: S3: s3://mysql-dumps-for-edw-team/Jan-2026/AMM89_20260109_050222.xlsx (20M)
+SFTP: ftp.semtech.com/amm-mysql-dumps/AMM89_20260109_050222.xlsx (20M)
+---
+Server: AMM90 (amm90.airlink.com)
+Status: SUCCESS | SFTP: N/A
+Result: Success with data
+File: S3: s3://mysql-dumps-for-edw-team/Jan-2026/AMM90_20260109_051815.xlsx (1015K)
+SFTP: ftp.semtech.com/amm-mysql-dumps/AMM90_20260109_051815.xlsx (1015K)
+---
+
+STORAGE:
+SFTP: sftp://ftp.semtech.com/amm-mysql-dumps/
+S3: s3://mysql-dumps-for-edw-team/Jan-2026/
+
+Log: /home/sahire/edw-data-scripts/logs/mysql_dump_collection_20260109_040817.log
+========================================

@@ -1,0 +1,124 @@
+========================================
+AMM MySQL DB Collection Summary: Feb-2026
+========================================
+Date: Wed Feb 18 11:37:42 UTC 2026
+
+OVERALL:
+Total: 21 | Success: 21 | No Data: 0 | Failed: 0
+Success Rate: 100%
+
+DETAILED STATUS:
+========================================
+
+Server: AMM01 (amm01.airlink.com)
+Status: SUCCESS | SFTP: N/A
+Result: Success with data
+File: SFTP: ftp.semtech.com/amm-mysql-dumps/AMM01_20260218_113535.xlsx (297K)
+---
+Server: AMM02 (amm02.airlink.com)
+Status: SUCCESS | SFTP: N/A
+Result: Success with data
+File: SFTP: ftp.semtech.com/amm-mysql-dumps/AMM02_20260218_113531.xlsx (169K)
+---
+Server: AMM03 (amm03.airlink.com)
+Status: SUCCESS | SFTP: N/A
+Result: Success with data
+File: SFTP: ftp.semtech.com/amm-mysql-dumps/AMM03_20260218_113526.xlsx (216K)
+---
+Server: AMM04 (amm04.airlink.com)
+Status: SUCCESS | SFTP: N/A
+Result: Success with data
+File: SFTP: ftp.semtech.com/amm-mysql-dumps/AMM04_20260218_113519.xlsx (233K)
+---
+Server: AMM05 (amm05.airlink.com)
+Status: SUCCESS | SFTP: N/A
+Result: Success with data
+File: SFTP: ftp.semtech.com/amm-mysql-dumps/AMM05_20260218_113509.xlsx (186K)
+---
+Server: AMM06 (amm06.airlink.com)
+Status: SUCCESS | SFTP: N/A
+Result: Success with data
+File: SFTP: ftp.semtech.com/amm-mysql-dumps/AMM06_20260218_113453.xlsx (221K)
+---
+Server: AMM07 (amm07.airlink.com)
+Status: SUCCESS | SFTP: N/A
+Result: Success with data
+File: SFTP: ftp.semtech.com/amm-mysql-dumps/AMM07_20260218_113446.xlsx (228K)
+---
+Server: AMM08 (amm08.airlink.com)
+Status: SUCCESS | SFTP: N/A
+Result: Success with data
+File: SFTP: ftp.semtech.com/amm-mysql-dumps/AMM08_20260218_113439.xlsx (203K)
+---
+Server: AMM09 (amm09.airlink.com)
+Status: SUCCESS | SFTP: N/A
+Result: Success with data
+File: SFTP: ftp.semtech.com/amm-mysql-dumps/AMM09_20260218_113435.xlsx (135K)
+---
+Server: AMM10 (amm10.airlink.com)
+Status: SUCCESS | SFTP: N/A
+Result: Success with data
+File: SFTP: ftp.semtech.com/amm-mysql-dumps/AMM10_20260218_113604.xlsx (302K)
+---
+Server: AMM11 (amm11.airlink.com)
+Status: SUCCESS | SFTP: N/A
+Result: Success with data
+File: SFTP: ftp.semtech.com/amm-mysql-dumps/AMM11_20260218_113609.xlsx (117K)
+---
+Server: AMM50 (amm50.airlink.com)
+Status: SUCCESS | SFTP: N/A
+Result: Success with data
+File: SFTP: ftp.semtech.com/amm-mysql-dumps/AMM50_20260218_113547.xlsx (80K)
+---
+Server: AMM52 (amm52.airlink.com)
+Status: SUCCESS | SFTP: N/A
+Result: Success with data
+File: SFTP: ftp.semtech.com/amm-mysql-dumps/AMM52_20260218_113559.xlsx (15K)
+---
+Server: AMM81 (amm81.airlink.com)
+Status: SUCCESS | SFTP: N/A
+Result: Success with data
+File: SFTP: ftp.semtech.com/amm-mysql-dumps/AMM81_20260218_113649.xlsx (23K)
+---
+Server: AMM82 (amm82.airlink.com)
+Status: SUCCESS | SFTP: N/A
+Result: Success with data
+File: SFTP: ftp.semtech.com/amm-mysql-dumps/AMM82_20260218_113645.xlsx (57K)
+---
+Server: AMM84 (amm84.airlink.com)
+Status: SUCCESS | SFTP: N/A
+Result: Success with data
+File: SFTP: ftp.semtech.com/amm-mysql-dumps/AMM84_20260218_113641.xlsx (41K)
+---
+Server: AMM86 (amm86.airlink.com)
+Status: SUCCESS | SFTP: N/A
+Result: Success with data
+File: SFTP: ftp.semtech.com/amm-mysql-dumps/AMM86_20260218_113637.xlsx (112K)
+---
+Server: AMM87 (amm87.airlink.com)
+Status: SUCCESS | SFTP: N/A
+Result: Success with data
+File: SFTP: ftp.semtech.com/amm-mysql-dumps/AMM87_20260218_113632.xlsx (64K)
+---
+Server: AMM88 (amm88.airlink.com)
+Status: SUCCESS | SFTP: N/A
+Result: Success with data
+File: SFTP: ftp.semtech.com/amm-mysql-dumps/AMM88_20260218_113736.xlsx (63K)
+---
+Server: AMM89 (amm89.airlink.com)
+Status: SUCCESS | SFTP: N/A
+Result: Success with data
+File: SFTP: ftp.semtech.com/amm-mysql-dumps/AMM89_20260218_113657.xlsx (133K)
+---
+Server: AMM90 (amm90.airlink.com)
+Status: SUCCESS | SFTP: N/A
+Result: Success with data
+File: SFTP: ftp.semtech.com/amm-mysql-dumps/AMM90_20260218_113740.xlsx (30K)
+---
+
+STORAGE:
+SFTP: sftp://ftp.semtech.com/amm-mysql-dumps/
+S3: DISABLED
+
+Log: /home/sahire/edw-data-scripts/logs/mysql_dump_collection_20260218_113428.log
+========================================

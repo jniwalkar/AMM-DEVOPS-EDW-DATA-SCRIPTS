@@ -1,0 +1,1055 @@
+2026-02-18 07:39:44 - [0;34m=== MySQL Dump Started ===[0m
+2026-02-18 07:39:44 - [0;34mDate: Wed Feb 18 07:39:44 UTC 2026[0m
+2026-02-18 07:39:44 - [0;32mlftp available[0m
+2026-02-18 07:39:44 - [1;33mS3 upload disabled - skipping AWS CLI check[0m
+2026-02-18 07:39:44 - [0;32mEnvironment ready[0m
+2026-02-18 07:39:44 - [0;34mCleaning up SFTP data older than 3 months...[0m
+2026-02-18 07:39:44 - [0;34mDeleting files older than 20251120 from SFTP[0m
+2026-02-18 07:39:47 - [1;33mSFTP cleanup had some issues[0m
+2026-02-18 07:39:47 - [0;34mStarting 21 servers...[0m
+2026-02-18 07:39:47 - [1;33m===== Processing: AMM09 (amm09.airlink.com) =====[0m
+2026-02-18 07:39:47 - [0;34mTesting SSH: AMM09 (amm09.airlink.com)[0m
+2026-02-18 07:39:47 - [0;32mSSH successful[0m
+2026-02-18 07:39:47 - [0;34mCreating remote script...[0m
+2026-02-18 07:39:47 - [0;34mCopying script...[0m
+2026-02-18 07:39:47 - [0;32mScript copied[0m
+2026-02-18 07:39:47 - [0;34mExecuting queries...[0m
+2026-02-18 07:39:51 - [0;34mRemote output:[0m
+2026-02-18 07:39:51 - [0;34m  >> Any or all uses of this system and all files on this system may be[0m
+2026-02-18 07:39:51 - [0;34m  >> officials of other agencies, both domestic and foreign.[0m
+2026-02-18 07:39:51 - [0;34m  >> By using this system, the user consents to such interception, monitoring,[0m
+2026-02-18 07:39:51 - [0;34m  >> recording, copying, auditing, inspection, and disclosure at the discretion of[0m
+2026-02-18 07:39:51 - [0;34m  >> this system you indicate your awareness of and consent to these terms and[0m
+2026-02-18 07:39:51 - [0;34m  >> conditions of use. LOG OFF IMMEDIATELY if you do not agree to the condition[0m
+2026-02-18 07:39:51 - [0;34m  >> stated in this warning.[0m
+2026-02-18 07:39:51 - [0;34m  >> <13>Feb 17 23:39:47 imtadmin: Login as imtadmin by sahire via  172.31.5.208 42280 172.31.3.223 2222[0m
+2026-02-18 07:39:51 - [0;34m  >> === Starting Export on AMM09 ===[0m
+2026-02-18 07:39:51 - [0;34m  >> Password OK[0m
+2026-02-18 07:39:51 - [0;34m  >> Testing MySQL...[0m
+2026-02-18 07:39:51 - [0;34m  >> MySQL connection: SUCCESS[0m
+2026-02-18 07:39:51 - [0;34m  >> Running: Group_Hierarchy_Path[0m
+2026-02-18 07:39:51 - [0;34m  >> SUCCESS: Group_Hierarchy_Path (119 rows)[0m
+2026-02-18 07:39:51 - [0;34m  >> Running: Gateway_Count_By_Group[0m
+2026-02-18 07:39:51 - [0;34m  >> SUCCESS: Gateway_Count_By_Group (38 rows)[0m
+2026-02-18 07:39:51 - [0;34m  >> Running: User_List_With_Groups[0m
+2026-02-18 07:39:51 - [0;34m  >> SUCCESS: User_List_With_Groups (165 rows)[0m
+2026-02-18 07:39:51 - [0;34m  >> Running: Gateways_Registered_Last_30_Days[0m
+2026-02-18 07:39:51 - [0;34m  >> SUCCESS: Gateways_Registered_Last_30_Days (1 rows)[0m
+2026-02-18 07:39:51 - [0;34m  >> Running: Device_Level_Data[0m
+2026-02-18 07:39:51 - [0;34m  >> SUCCESS: Device_Level_Data (2711 rows)[0m
+2026-02-18 07:39:51 - [0;34m  >> TSV files: 5[0m
+2026-02-18 07:39:51 - [0;34m  >> -rw-r----- 1 imtadmin imtadmin 205K Feb 17 23:39 /tmp/Device_Level_Data_AMM09_20260218_073944.tsv[0m
+2026-02-18 07:39:51 - [0;34m  >> -rw-r----- 1 imtadmin imtadmin  720 Feb 17 23:39 /tmp/Gateway_Count_By_Group_AMM09_20260218_073944.tsv[0m
+2026-02-18 07:39:51 - [0;34m  >> -rw-r----- 1 imtadmin imtadmin   35 Feb 17 23:39 /tmp/Gateways_Registered_Last_30_Days_AMM09_20260218_073944.tsv[0m
+2026-02-18 07:39:51 - [0;34m  >> -rw-r----- 1 imtadmin imtadmin 4.4K Feb 17 23:39 /tmp/Group_Hierarchy_Path_AMM09_20260218_073944.tsv[0m
+2026-02-18 07:39:51 - [0;34m  >> -rw-r----- 1 imtadmin imtadmin 8.1K Feb 17 23:39 /tmp/User_List_With_Groups_AMM09_20260218_073944.tsv[0m
+2026-02-18 07:39:51 - [0;34m  >> SUCCESS: Results packaged[0m
+2026-02-18 07:39:51 - [0;34m  >> DUMP_FILE: /tmp/mysql_results_AMM09_20260218_073944.tar.gz[0m
+2026-02-18 07:39:51 - [0;34m  >> FILE_SIZE: 50K[0m
+2026-02-18 07:39:51 - [0;34mAnalysis: NoData=0, Errors=0[0m
+2026-02-18 07:39:51 - [0;34mDownloading tar...[0m
+2026-02-18 07:39:51 - [0;32mDownloaded (50K)[0m
+2026-02-18 07:39:51 - [0;34mCreating Excel for AMM09...[0m
+2026-02-18 07:39:52 - [0;31mExcel failed[0m
+2026-02-18 07:39:52 - [0;31mExcel failed[0m
+2026-02-18 07:39:52 - =====
+2026-02-18 07:39:52 - [1;33m===== Processing: AMM08 (amm08.airlink.com) =====[0m
+2026-02-18 07:39:52 - [0;34mTesting SSH: AMM08 (amm08.airlink.com)[0m
+2026-02-18 07:39:52 - [0;32mSSH successful[0m
+2026-02-18 07:39:52 - [0;34mCreating remote script...[0m
+2026-02-18 07:39:52 - [0;34mCopying script...[0m
+2026-02-18 07:39:52 - [0;32mScript copied[0m
+2026-02-18 07:39:52 - [0;34mExecuting queries...[0m
+2026-02-18 07:39:53 - [0;34mRemote output:[0m
+2026-02-18 07:39:53 - [0;34m  >> Any or all uses of this system and all files on this system may be[0m
+2026-02-18 07:39:53 - [0;34m  >> officials of other agencies, both domestic and foreign.[0m
+2026-02-18 07:39:53 - [0;34m  >> By using this system, the user consents to such interception, monitoring,[0m
+2026-02-18 07:39:53 - [0;34m  >> recording, copying, auditing, inspection, and disclosure at the discretion of[0m
+2026-02-18 07:39:53 - [0;34m  >> this system you indicate your awareness of and consent to these terms and[0m
+2026-02-18 07:39:53 - [0;34m  >> conditions of use. LOG OFF IMMEDIATELY if you do not agree to the condition[0m
+2026-02-18 07:39:53 - [0;34m  >> stated in this warning.[0m
+2026-02-18 07:39:53 - [0;34m  >> <13>Feb 17 23:39:52 imtadmin: Login as imtadmin by sahire via  172.31.5.208 48618 172.31.10.29 2222[0m
+2026-02-18 07:39:53 - [0;34m  >> === Starting Export on AMM08 ===[0m
+2026-02-18 07:39:53 - [0;34m  >> Password OK[0m
+2026-02-18 07:39:53 - [0;34m  >> Testing MySQL...[0m
+2026-02-18 07:39:53 - [0;34m  >> MySQL connection: SUCCESS[0m
+2026-02-18 07:39:53 - [0;34m  >> Running: Group_Hierarchy_Path[0m
+2026-02-18 07:39:53 - [0;34m  >> SUCCESS: Group_Hierarchy_Path (250 rows)[0m
+2026-02-18 07:39:53 - [0;34m  >> Running: Gateway_Count_By_Group[0m
+2026-02-18 07:39:53 - [0;34m  >> SUCCESS: Gateway_Count_By_Group (97 rows)[0m
+2026-02-18 07:39:53 - [0;34m  >> Running: User_List_With_Groups[0m
+2026-02-18 07:39:53 - [0;34m  >> SUCCESS: User_List_With_Groups (230 rows)[0m
+2026-02-18 07:39:53 - [0;34m  >> Running: Gateways_Registered_Last_30_Days[0m
+2026-02-18 07:39:53 - [0;34m  >> SUCCESS: Gateways_Registered_Last_30_Days (1 rows)[0m
+2026-02-18 07:39:53 - [0;34m  >> Running: Device_Level_Data[0m
+2026-02-18 07:39:53 - [0;34m  >> SUCCESS: Device_Level_Data (3817 rows)[0m
+2026-02-18 07:39:53 - [0;34m  >> TSV files: 5[0m
+2026-02-18 07:39:53 - [0;34m  >> -rw-r----- 1 imtadmin imtadmin 318K Feb 17 23:39 /tmp/Device_Level_Data_AMM08_20260218_073944.tsv[0m
+2026-02-18 07:39:53 - [0;34m  >> -rw-r----- 1 imtadmin imtadmin 1.9K Feb 17 23:39 /tmp/Gateway_Count_By_Group_AMM08_20260218_073944.tsv[0m
+2026-02-18 07:39:53 - [0;34m  >> -rw-r----- 1 imtadmin imtadmin   35 Feb 17 23:39 /tmp/Gateways_Registered_Last_30_Days_AMM08_20260218_073944.tsv[0m
+2026-02-18 07:39:53 - [0;34m  >> -rw-r----- 1 imtadmin imtadmin 9.5K Feb 17 23:39 /tmp/Group_Hierarchy_Path_AMM08_20260218_073944.tsv[0m
+2026-02-18 07:39:53 - [0;34m  >> -rw-r----- 1 imtadmin imtadmin  13K Feb 17 23:39 /tmp/User_List_With_Groups_AMM08_20260218_073944.tsv[0m
+2026-02-18 07:39:53 - [0;34m  >> SUCCESS: Results packaged[0m
+2026-02-18 07:39:53 - [0;34m  >> DUMP_FILE: /tmp/mysql_results_AMM08_20260218_073944.tar.gz[0m
+2026-02-18 07:39:53 - [0;34m  >> FILE_SIZE: 77K[0m
+2026-02-18 07:39:53 - [0;34mAnalysis: NoData=0, Errors=0[0m
+2026-02-18 07:39:53 - [0;34mDownloading tar...[0m
+2026-02-18 07:39:53 - [0;32mDownloaded (77K)[0m
+2026-02-18 07:39:53 - [0;34mCreating Excel for AMM08...[0m
+2026-02-18 07:39:54 - [0;32mExcel created[0m
+2026-02-18 07:39:54 - [1;33mS3 upload disabled[0m
+2026-02-18 07:39:54 - [0;34mUploading to SFTP...[0m
+2026-02-18 07:39:54 - Uploading to SFTP: ftp.semtech.com/amm-mysql-dumps/AMM08_20260218_073953.xlsx
+2026-02-18 07:39:56 - SFTP upload successful
+2026-02-18 07:39:56 - [0;32m✓ Done: AMM08[0m
+2026-02-18 07:39:56 - =====
+2026-02-18 07:39:56 - [1;33m===== Processing: AMM07 (amm07.airlink.com) =====[0m
+2026-02-18 07:39:56 - [0;34mTesting SSH: AMM07 (amm07.airlink.com)[0m
+2026-02-18 07:39:56 - [0;32mSSH successful[0m
+2026-02-18 07:39:56 - [0;34mCreating remote script...[0m
+2026-02-18 07:39:56 - [0;34mCopying script...[0m
+2026-02-18 07:39:56 - [0;32mScript copied[0m
+2026-02-18 07:39:56 - [0;34mExecuting queries...[0m
+2026-02-18 07:39:59 - [0;34mRemote output:[0m
+2026-02-18 07:39:59 - [0;34m  >> Any or all uses of this system and all files on this system may be[0m
+2026-02-18 07:39:59 - [0;34m  >> officials of other agencies, both domestic and foreign.[0m
+2026-02-18 07:39:59 - [0;34m  >> By using this system, the user consents to such interception, monitoring,[0m
+2026-02-18 07:39:59 - [0;34m  >> recording, copying, auditing, inspection, and disclosure at the discretion of[0m
+2026-02-18 07:39:59 - [0;34m  >> this system you indicate your awareness of and consent to these terms and[0m
+2026-02-18 07:39:59 - [0;34m  >> conditions of use. LOG OFF IMMEDIATELY if you do not agree to the condition[0m
+2026-02-18 07:39:59 - [0;34m  >> stated in this warning.[0m
+2026-02-18 07:39:59 - [0;34m  >> <13>Feb 17 23:39:57 imtadmin: Login as imtadmin by sahire via  172.31.5.208 60276 172.31.34.3 2222[0m
+2026-02-18 07:39:59 - [0;34m  >> === Starting Export on AMM07 ===[0m
+2026-02-18 07:39:59 - [0;34m  >> Password OK[0m
+2026-02-18 07:39:59 - [0;34m  >> Testing MySQL...[0m
+2026-02-18 07:39:59 - [0;34m  >> MySQL connection: SUCCESS[0m
+2026-02-18 07:39:59 - [0;34m  >> Running: Group_Hierarchy_Path[0m
+2026-02-18 07:39:59 - [0;34m  >> SUCCESS: Group_Hierarchy_Path (355 rows)[0m
+2026-02-18 07:39:59 - [0;34m  >> Running: Gateway_Count_By_Group[0m
+2026-02-18 07:39:59 - [0;34m  >> SUCCESS: Gateway_Count_By_Group (177 rows)[0m
+2026-02-18 07:39:59 - [0;34m  >> Running: User_List_With_Groups[0m
+2026-02-18 07:39:59 - [0;34m  >> SUCCESS: User_List_With_Groups (373 rows)[0m
+2026-02-18 07:39:59 - [0;34m  >> Running: Gateways_Registered_Last_30_Days[0m
+2026-02-18 07:39:59 - [0;34m  >> SUCCESS: Gateways_Registered_Last_30_Days (1 rows)[0m
+2026-02-18 07:39:59 - [0;34m  >> Running: Device_Level_Data[0m
+2026-02-18 07:39:59 - [0;34m  >> SUCCESS: Device_Level_Data (3784 rows)[0m
+2026-02-18 07:39:59 - [0;34m  >> TSV files: 5[0m
+2026-02-18 07:39:59 - [0;34m  >> -rw-r----- 1 imtadmin imtadmin 334K Feb 17 23:39 /tmp/Device_Level_Data_AMM07_20260218_073944.tsv[0m
+2026-02-18 07:39:59 - [0;34m  >> -rw-r----- 1 imtadmin imtadmin 3.7K Feb 17 23:39 /tmp/Gateway_Count_By_Group_AMM07_20260218_073944.tsv[0m
+2026-02-18 07:39:59 - [0;34m  >> -rw-r----- 1 imtadmin imtadmin   36 Feb 17 23:39 /tmp/Gateways_Registered_Last_30_Days_AMM07_20260218_073944.tsv[0m
+2026-02-18 07:39:59 - [0;34m  >> -rw-r----- 1 imtadmin imtadmin  14K Feb 17 23:39 /tmp/Group_Hierarchy_Path_AMM07_20260218_073944.tsv[0m
+2026-02-18 07:39:59 - [0;34m  >> -rw-r----- 1 imtadmin imtadmin  22K Feb 17 23:39 /tmp/User_List_With_Groups_AMM07_20260218_073944.tsv[0m
+2026-02-18 07:39:59 - [0;34m  >> SUCCESS: Results packaged[0m
+2026-02-18 07:39:59 - [0;34m  >> DUMP_FILE: /tmp/mysql_results_AMM07_20260218_073944.tar.gz[0m
+2026-02-18 07:39:59 - [0;34m  >> FILE_SIZE: 92K[0m
+2026-02-18 07:39:59 - [0;34mAnalysis: NoData=0, Errors=0[0m
+2026-02-18 07:39:59 - [0;34mDownloading tar...[0m
+2026-02-18 07:39:59 - [0;32mDownloaded (92K)[0m
+2026-02-18 07:39:59 - [0;34mCreating Excel for AMM07...[0m
+2026-02-18 07:40:00 - [0;32mExcel created[0m
+2026-02-18 07:40:00 - [1;33mS3 upload disabled[0m
+2026-02-18 07:40:00 - [0;34mUploading to SFTP...[0m
+2026-02-18 07:40:00 - Uploading to SFTP: ftp.semtech.com/amm-mysql-dumps/AMM07_20260218_073959.xlsx
+2026-02-18 07:40:02 - SFTP upload successful
+2026-02-18 07:40:03 - [0;32m✓ Done: AMM07[0m
+2026-02-18 07:40:03 - =====
+2026-02-18 07:40:03 - [1;33m===== Processing: AMM06 (amm06.airlink.com) =====[0m
+2026-02-18 07:40:03 - [0;34mTesting SSH: AMM06 (amm06.airlink.com)[0m
+2026-02-18 07:40:03 - [0;32mSSH successful[0m
+2026-02-18 07:40:03 - [0;34mCreating remote script...[0m
+2026-02-18 07:40:03 - [0;34mCopying script...[0m
+2026-02-18 07:40:03 - [0;32mScript copied[0m
+2026-02-18 07:40:03 - [0;34mExecuting queries...[0m
+2026-02-18 07:40:06 - [0;34mRemote output:[0m
+2026-02-18 07:40:06 - [0;34m  >> Any or all uses of this system and all files on this system may be[0m
+2026-02-18 07:40:06 - [0;34m  >> officials of other agencies, both domestic and foreign.[0m
+2026-02-18 07:40:06 - [0;34m  >> By using this system, the user consents to such interception, monitoring,[0m
+2026-02-18 07:40:06 - [0;34m  >> recording, copying, auditing, inspection, and disclosure at the discretion of[0m
+2026-02-18 07:40:06 - [0;34m  >> this system you indicate your awareness of and consent to these terms and[0m
+2026-02-18 07:40:06 - [0;34m  >> conditions of use. LOG OFF IMMEDIATELY if you do not agree to the condition[0m
+2026-02-18 07:40:06 - [0;34m  >> stated in this warning.[0m
+2026-02-18 07:40:06 - [0;34m  >> <13>Feb 17 23:40:03 imtadmin: Login as imtadmin by sahire via  172.31.5.208 55638 172.31.44.168 2222[0m
+2026-02-18 07:40:06 - [0;34m  >> === Starting Export on AMM06 ===[0m
+2026-02-18 07:40:06 - [0;34m  >> Password OK[0m
+2026-02-18 07:40:06 - [0;34m  >> Testing MySQL...[0m
+2026-02-18 07:40:06 - [0;34m  >> MySQL connection: SUCCESS[0m
+2026-02-18 07:40:06 - [0;34m  >> Running: Group_Hierarchy_Path[0m
+2026-02-18 07:40:06 - [0;34m  >> SUCCESS: Group_Hierarchy_Path (167 rows)[0m
+2026-02-18 07:40:06 - [0;34m  >> Running: Gateway_Count_By_Group[0m
+2026-02-18 07:40:06 - [0;34m  >> SUCCESS: Gateway_Count_By_Group (43 rows)[0m
+2026-02-18 07:40:06 - [0;34m  >> Running: User_List_With_Groups[0m
+2026-02-18 07:40:06 - [0;34m  >> SUCCESS: User_List_With_Groups (232 rows)[0m
+2026-02-18 07:40:06 - [0;34m  >> Running: Gateways_Registered_Last_30_Days[0m
+2026-02-18 07:40:06 - [0;34m  >> SUCCESS: Gateways_Registered_Last_30_Days (1 rows)[0m
+2026-02-18 07:40:06 - [0;34m  >> Running: Device_Level_Data[0m
+2026-02-18 07:40:06 - [0;34m  >> SUCCESS: Device_Level_Data (5248 rows)[0m
+2026-02-18 07:40:06 - [0;34m  >> TSV files: 5[0m
+2026-02-18 07:40:06 - [0;34m  >> -rw-r----- 1 imtadmin imtadmin 348K Feb 17 23:40 /tmp/Device_Level_Data_AMM06_20260218_073944.tsv[0m
+2026-02-18 07:40:06 - [0;34m  >> -rw-r----- 1 imtadmin imtadmin  848 Feb 17 23:40 /tmp/Gateway_Count_By_Group_AMM06_20260218_073944.tsv[0m
+2026-02-18 07:40:06 - [0;34m  >> -rw-r----- 1 imtadmin imtadmin   36 Feb 17 23:40 /tmp/Gateways_Registered_Last_30_Days_AMM06_20260218_073944.tsv[0m
+2026-02-18 07:40:06 - [0;34m  >> -rw-r----- 1 imtadmin imtadmin 6.2K Feb 17 23:40 /tmp/Group_Hierarchy_Path_AMM06_20260218_073944.tsv[0m
+2026-02-18 07:40:06 - [0;34m  >> -rw-r----- 1 imtadmin imtadmin  12K Feb 17 23:40 /tmp/User_List_With_Groups_AMM06_20260218_073944.tsv[0m
+2026-02-18 07:40:06 - [0;34m  >> SUCCESS: Results packaged[0m
+2026-02-18 07:40:06 - [0;34m  >> DUMP_FILE: /tmp/mysql_results_AMM06_20260218_073944.tar.gz[0m
+2026-02-18 07:40:06 - [0;34m  >> FILE_SIZE: 70K[0m
+2026-02-18 07:40:06 - [0;34mAnalysis: NoData=0, Errors=0[0m
+2026-02-18 07:40:06 - [0;34mDownloading tar...[0m
+2026-02-18 07:40:06 - [0;32mDownloaded (70K)[0m
+2026-02-18 07:40:06 - [0;34mCreating Excel for AMM06...[0m
+2026-02-18 07:40:07 - [0;31mExcel failed[0m
+2026-02-18 07:40:07 - [0;31mExcel failed[0m
+2026-02-18 07:40:07 - =====
+2026-02-18 07:40:07 - [1;33m===== Processing: AMM05 (amm05.airlink.com) =====[0m
+2026-02-18 07:40:07 - [0;34mTesting SSH: AMM05 (amm05.airlink.com)[0m
+2026-02-18 07:40:07 - [0;32mSSH successful[0m
+2026-02-18 07:40:07 - [0;34mCreating remote script...[0m
+2026-02-18 07:40:07 - [0;34mCopying script...[0m
+2026-02-18 07:40:07 - [0;32mScript copied[0m
+2026-02-18 07:40:07 - [0;34mExecuting queries...[0m
+2026-02-18 07:40:19 - [0;34mRemote output:[0m
+2026-02-18 07:40:19 - [0;34m  >> Any or all uses of this system and all files on this system may be[0m
+2026-02-18 07:40:19 - [0;34m  >> officials of other agencies, both domestic and foreign.[0m
+2026-02-18 07:40:19 - [0;34m  >> By using this system, the user consents to such interception, monitoring,[0m
+2026-02-18 07:40:19 - [0;34m  >> recording, copying, auditing, inspection, and disclosure at the discretion of[0m
+2026-02-18 07:40:19 - [0;34m  >> this system you indicate your awareness of and consent to these terms and[0m
+2026-02-18 07:40:19 - [0;34m  >> conditions of use. LOG OFF IMMEDIATELY if you do not agree to the condition[0m
+2026-02-18 07:40:19 - [0;34m  >> stated in this warning.[0m
+2026-02-18 07:40:19 - [0;34m  >> <13>Feb 17 23:40:07 imtadmin: Login as imtadmin by sahire via  172.31.5.208 40454 172.31.31.214 2222[0m
+2026-02-18 07:40:19 - [0;34m  >> === Starting Export on AMM05 ===[0m
+2026-02-18 07:40:19 - [0;34m  >> Password OK[0m
+2026-02-18 07:40:19 - [0;34m  >> Testing MySQL...[0m
+2026-02-18 07:40:19 - [0;34m  >> MySQL connection: SUCCESS[0m
+2026-02-18 07:40:19 - [0;34m  >> Running: Group_Hierarchy_Path[0m
+2026-02-18 07:40:19 - [0;34m  >> SUCCESS: Group_Hierarchy_Path (253 rows)[0m
+2026-02-18 07:40:19 - [0;34m  >> Running: Gateway_Count_By_Group[0m
+2026-02-18 07:40:19 - [0;34m  >> SUCCESS: Gateway_Count_By_Group (123 rows)[0m
+2026-02-18 07:40:19 - [0;34m  >> Running: User_List_With_Groups[0m
+2026-02-18 07:40:19 - [0;34m  >> SUCCESS: User_List_With_Groups (305 rows)[0m
+2026-02-18 07:40:19 - [0;34m  >> Running: Gateways_Registered_Last_30_Days[0m
+2026-02-18 07:40:19 - [0;34m  >> SUCCESS: Gateways_Registered_Last_30_Days (1 rows)[0m
+2026-02-18 07:40:19 - [0;34m  >> Running: Device_Level_Data[0m
+2026-02-18 07:40:19 - [0;34m  >> SUCCESS: Device_Level_Data (3418 rows)[0m
+2026-02-18 07:40:19 - [0;34m  >> TSV files: 5[0m
+2026-02-18 07:40:19 - [0;34m  >> -rw-r----- 1 imtadmin imtadmin 277K Feb 17 23:40 /tmp/Device_Level_Data_AMM05_20260218_073944.tsv[0m
+2026-02-18 07:40:19 - [0;34m  >> -rw-r----- 1 imtadmin imtadmin 2.3K Feb 17 23:40 /tmp/Gateway_Count_By_Group_AMM05_20260218_073944.tsv[0m
+2026-02-18 07:40:19 - [0;34m  >> -rw-r----- 1 imtadmin imtadmin   36 Feb 17 23:40 /tmp/Gateways_Registered_Last_30_Days_AMM05_20260218_073944.tsv[0m
+2026-02-18 07:40:19 - [0;34m  >> -rw-r----- 1 imtadmin imtadmin 9.8K Feb 17 23:40 /tmp/Group_Hierarchy_Path_AMM05_20260218_073944.tsv[0m
+2026-02-18 07:40:19 - [0;34m  >> -rw-r----- 1 imtadmin imtadmin  18K Feb 17 23:40 /tmp/User_List_With_Groups_AMM05_20260218_073944.tsv[0m
+2026-02-18 07:40:19 - [0;34m  >> SUCCESS: Results packaged[0m
+2026-02-18 07:40:19 - [0;34m  >> DUMP_FILE: /tmp/mysql_results_AMM05_20260218_073944.tar.gz[0m
+2026-02-18 07:40:19 - [0;34m  >> FILE_SIZE: 69K[0m
+2026-02-18 07:40:19 - [0;34mAnalysis: NoData=0, Errors=0[0m
+2026-02-18 07:40:19 - [0;34mDownloading tar...[0m
+2026-02-18 07:40:19 - [0;32mDownloaded (69K)[0m
+2026-02-18 07:40:19 - [0;34mCreating Excel for AMM05...[0m
+2026-02-18 07:40:20 - [0;32mExcel created[0m
+2026-02-18 07:40:20 - [1;33mS3 upload disabled[0m
+2026-02-18 07:40:20 - [0;34mUploading to SFTP...[0m
+2026-02-18 07:40:20 - Uploading to SFTP: ftp.semtech.com/amm-mysql-dumps/AMM05_20260218_074019.xlsx
+2026-02-18 07:40:22 - SFTP upload successful
+2026-02-18 07:40:22 - [0;32m✓ Done: AMM05[0m
+2026-02-18 07:40:22 - =====
+2026-02-18 07:40:22 - [1;33m===== Processing: AMM04 (amm04.airlink.com) =====[0m
+2026-02-18 07:40:22 - [0;34mTesting SSH: AMM04 (amm04.airlink.com)[0m
+2026-02-18 07:40:23 - [0;32mSSH successful[0m
+2026-02-18 07:40:23 - [0;34mCreating remote script...[0m
+2026-02-18 07:40:23 - [0;34mCopying script...[0m
+2026-02-18 07:40:23 - [0;32mScript copied[0m
+2026-02-18 07:40:23 - [0;34mExecuting queries...[0m
+2026-02-18 07:40:29 - [0;34mRemote output:[0m
+2026-02-18 07:40:29 - [0;34m  >> Any or all uses of this system and all files on this system may be[0m
+2026-02-18 07:40:29 - [0;34m  >> officials of other agencies, both domestic and foreign.[0m
+2026-02-18 07:40:29 - [0;34m  >> By using this system, the user consents to such interception, monitoring,[0m
+2026-02-18 07:40:29 - [0;34m  >> recording, copying, auditing, inspection, and disclosure at the discretion of[0m
+2026-02-18 07:40:29 - [0;34m  >> this system you indicate your awareness of and consent to these terms and[0m
+2026-02-18 07:40:29 - [0;34m  >> conditions of use. LOG OFF IMMEDIATELY if you do not agree to the condition[0m
+2026-02-18 07:40:29 - [0;34m  >> stated in this warning.[0m
+2026-02-18 07:40:29 - [0;34m  >> <13>Feb 17 23:40:23 imtadmin: Login as imtadmin by sahire via  172.31.5.208 39526 172.31.10.129 2222[0m
+2026-02-18 07:40:29 - [0;34m  >> === Starting Export on AMM04 ===[0m
+2026-02-18 07:40:29 - [0;34m  >> Password OK[0m
+2026-02-18 07:40:29 - [0;34m  >> Testing MySQL...[0m
+2026-02-18 07:40:29 - [0;34m  >> MySQL connection: SUCCESS[0m
+2026-02-18 07:40:29 - [0;34m  >> Running: Group_Hierarchy_Path[0m
+2026-02-18 07:40:29 - [0;34m  >> SUCCESS: Group_Hierarchy_Path (296 rows)[0m
+2026-02-18 07:40:29 - [0;34m  >> Running: Gateway_Count_By_Group[0m
+2026-02-18 07:40:29 - [0;34m  >> SUCCESS: Gateway_Count_By_Group (84 rows)[0m
+2026-02-18 07:40:29 - [0;34m  >> Running: User_List_With_Groups[0m
+2026-02-18 07:40:29 - [0;34m  >> SUCCESS: User_List_With_Groups (340 rows)[0m
+2026-02-18 07:40:29 - [0;34m  >> Running: Gateways_Registered_Last_30_Days[0m
+2026-02-18 07:40:29 - [0;34m  >> SUCCESS: Gateways_Registered_Last_30_Days (1 rows)[0m
+2026-02-18 07:40:29 - [0;34m  >> Running: Device_Level_Data[0m
+2026-02-18 07:40:29 - [0;34m  >> SUCCESS: Device_Level_Data (4496 rows)[0m
+2026-02-18 07:40:29 - [0;34m  >> TSV files: 5[0m
+2026-02-18 07:40:29 - [0;34m  >> -rw-r----- 1 imtadmin imtadmin 348K Feb 17 23:40 /tmp/Device_Level_Data_AMM04_20260218_073944.tsv[0m
+2026-02-18 07:40:29 - [0;34m  >> -rw-r----- 1 imtadmin imtadmin 1.9K Feb 17 23:40 /tmp/Gateway_Count_By_Group_AMM04_20260218_073944.tsv[0m
+2026-02-18 07:40:29 - [0;34m  >> -rw-r----- 1 imtadmin imtadmin   35 Feb 17 23:40 /tmp/Gateways_Registered_Last_30_Days_AMM04_20260218_073944.tsv[0m
+2026-02-18 07:40:29 - [0;34m  >> -rw-r----- 1 imtadmin imtadmin  12K Feb 17 23:40 /tmp/Group_Hierarchy_Path_AMM04_20260218_073944.tsv[0m
+2026-02-18 07:40:29 - [0;34m  >> -rw-r----- 1 imtadmin imtadmin  20K Feb 17 23:40 /tmp/User_List_With_Groups_AMM04_20260218_073944.tsv[0m
+2026-02-18 07:40:29 - [0;34m  >> SUCCESS: Results packaged[0m
+2026-02-18 07:40:29 - [0;34m  >> DUMP_FILE: /tmp/mysql_results_AMM04_20260218_073944.tar.gz[0m
+2026-02-18 07:40:29 - [0;34m  >> FILE_SIZE: 87K[0m
+2026-02-18 07:40:29 - [0;34mAnalysis: NoData=0, Errors=0[0m
+2026-02-18 07:40:29 - [0;34mDownloading tar...[0m
+2026-02-18 07:40:29 - [0;32mDownloaded (87K)[0m
+2026-02-18 07:40:29 - [0;34mCreating Excel for AMM04...[0m
+2026-02-18 07:40:31 - [0;32mExcel created[0m
+2026-02-18 07:40:31 - [1;33mS3 upload disabled[0m
+2026-02-18 07:40:31 - [0;34mUploading to SFTP...[0m
+2026-02-18 07:40:31 - Uploading to SFTP: ftp.semtech.com/amm-mysql-dumps/AMM04_20260218_074029.xlsx
+2026-02-18 07:40:33 - SFTP upload successful
+2026-02-18 07:40:33 - [0;32m✓ Done: AMM04[0m
+2026-02-18 07:40:33 - =====
+2026-02-18 07:40:33 - [1;33m===== Processing: AMM03 (amm03.airlink.com) =====[0m
+2026-02-18 07:40:33 - [0;34mTesting SSH: AMM03 (amm03.airlink.com)[0m
+2026-02-18 07:40:33 - [0;32mSSH successful[0m
+2026-02-18 07:40:33 - [0;34mCreating remote script...[0m
+2026-02-18 07:40:33 - [0;34mCopying script...[0m
+2026-02-18 07:40:33 - [0;32mScript copied[0m
+2026-02-18 07:40:33 - [0;34mExecuting queries...[0m
+2026-02-18 07:40:36 - [0;34mRemote output:[0m
+2026-02-18 07:40:36 - [0;34m  >> Any or all uses of this system and all files on this system may be[0m
+2026-02-18 07:40:36 - [0;34m  >> officials of other agencies, both domestic and foreign.[0m
+2026-02-18 07:40:36 - [0;34m  >> By using this system, the user consents to such interception, monitoring,[0m
+2026-02-18 07:40:36 - [0;34m  >> recording, copying, auditing, inspection, and disclosure at the discretion of[0m
+2026-02-18 07:40:36 - [0;34m  >> this system you indicate your awareness of and consent to these terms and[0m
+2026-02-18 07:40:36 - [0;34m  >> conditions of use. LOG OFF IMMEDIATELY if you do not agree to the condition[0m
+2026-02-18 07:40:36 - [0;34m  >> stated in this warning.[0m
+2026-02-18 07:40:36 - [0;34m  >> <13>Feb 17 23:40:33 imtadmin: Login as imtadmin by sahire via  172.31.5.208 53354 172.31.34.122 2222[0m
+2026-02-18 07:40:36 - [0;34m  >> === Starting Export on AMM03 ===[0m
+2026-02-18 07:40:36 - [0;34m  >> Password OK[0m
+2026-02-18 07:40:36 - [0;34m  >> Testing MySQL...[0m
+2026-02-18 07:40:36 - [0;34m  >> MySQL connection: SUCCESS[0m
+2026-02-18 07:40:36 - [0;34m  >> Running: Group_Hierarchy_Path[0m
+2026-02-18 07:40:36 - [0;34m  >> SUCCESS: Group_Hierarchy_Path (268 rows)[0m
+2026-02-18 07:40:36 - [0;34m  >> Running: Gateway_Count_By_Group[0m
+2026-02-18 07:40:36 - [0;34m  >> SUCCESS: Gateway_Count_By_Group (101 rows)[0m
+2026-02-18 07:40:36 - [0;34m  >> Running: User_List_With_Groups[0m
+2026-02-18 07:40:36 - [0;34m  >> SUCCESS: User_List_With_Groups (274 rows)[0m
+2026-02-18 07:40:36 - [0;34m  >> Running: Gateways_Registered_Last_30_Days[0m
+2026-02-18 07:40:36 - [0;34m  >> SUCCESS: Gateways_Registered_Last_30_Days (1 rows)[0m
+2026-02-18 07:40:36 - [0;34m  >> Running: Device_Level_Data[0m
+2026-02-18 07:40:36 - [0;34m  >> SUCCESS: Device_Level_Data (4028 rows)[0m
+2026-02-18 07:40:36 - [0;34m  >> TSV files: 5[0m
+2026-02-18 07:40:36 - [0;34m  >> -rw-r----- 1 imtadmin imtadmin 311K Feb 17 23:40 /tmp/Device_Level_Data_AMM03_20260218_073944.tsv[0m
+2026-02-18 07:40:36 - [0;34m  >> -rw-r----- 1 imtadmin imtadmin 2.2K Feb 17 23:40 /tmp/Gateway_Count_By_Group_AMM03_20260218_073944.tsv[0m
+2026-02-18 07:40:36 - [0;34m  >> -rw-r----- 1 imtadmin imtadmin   36 Feb 17 23:40 /tmp/Gateways_Registered_Last_30_Days_AMM03_20260218_073944.tsv[0m
+2026-02-18 07:40:36 - [0;34m  >> -rw-r----- 1 imtadmin imtadmin  11K Feb 17 23:40 /tmp/Group_Hierarchy_Path_AMM03_20260218_073944.tsv[0m
+2026-02-18 07:40:36 - [0;34m  >> -rw-r----- 1 imtadmin imtadmin  16K Feb 17 23:40 /tmp/User_List_With_Groups_AMM03_20260218_073944.tsv[0m
+2026-02-18 07:40:36 - [0;34m  >> SUCCESS: Results packaged[0m
+2026-02-18 07:40:36 - [0;34m  >> DUMP_FILE: /tmp/mysql_results_AMM03_20260218_073944.tar.gz[0m
+2026-02-18 07:40:37 - [0;34m  >> FILE_SIZE: 83K[0m
+2026-02-18 07:40:37 - [0;34mAnalysis: NoData=0, Errors=0[0m
+2026-02-18 07:40:37 - [0;34mDownloading tar...[0m
+2026-02-18 07:40:37 - [0;32mDownloaded (83K)[0m
+2026-02-18 07:40:37 - [0;34mCreating Excel for AMM03...[0m
+2026-02-18 07:40:38 - [0;32mExcel created[0m
+2026-02-18 07:40:38 - [1;33mS3 upload disabled[0m
+2026-02-18 07:40:38 - [0;34mUploading to SFTP...[0m
+2026-02-18 07:40:38 - Uploading to SFTP: ftp.semtech.com/amm-mysql-dumps/AMM03_20260218_074037.xlsx
+2026-02-18 07:40:40 - SFTP upload successful
+2026-02-18 07:40:40 - [0;32m✓ Done: AMM03[0m
+2026-02-18 07:40:40 - =====
+2026-02-18 07:40:40 - [1;33m===== Processing: AMM02 (amm02.airlink.com) =====[0m
+2026-02-18 07:40:40 - [0;34mTesting SSH: AMM02 (amm02.airlink.com)[0m
+2026-02-18 07:40:40 - [0;32mSSH successful[0m
+2026-02-18 07:40:40 - [0;34mCreating remote script...[0m
+2026-02-18 07:40:40 - [0;34mCopying script...[0m
+2026-02-18 07:40:41 - [0;32mScript copied[0m
+2026-02-18 07:40:41 - [0;34mExecuting queries...[0m
+2026-02-18 07:40:41 - [0;34mRemote output:[0m
+2026-02-18 07:40:41 - [0;34m  >> Any or all uses of this system and all files on this system may be[0m
+2026-02-18 07:40:41 - [0;34m  >> officials of other agencies, both domestic and foreign.[0m
+2026-02-18 07:40:41 - [0;34m  >> By using this system, the user consents to such interception, monitoring,[0m
+2026-02-18 07:40:41 - [0;34m  >> recording, copying, auditing, inspection, and disclosure at the discretion of[0m
+2026-02-18 07:40:41 - [0;34m  >> this system you indicate your awareness of and consent to these terms and[0m
+2026-02-18 07:40:41 - [0;34m  >> conditions of use. LOG OFF IMMEDIATELY if you do not agree to the condition[0m
+2026-02-18 07:40:41 - [0;34m  >> stated in this warning.[0m
+2026-02-18 07:40:41 - [0;34m  >> <13>Feb 17 23:40:41 imtadmin: Login as imtadmin by sahire via  172.31.5.208 33230 172.31.37.221 2222[0m
+2026-02-18 07:40:41 - [0;34m  >> === Starting Export on AMM02 ===[0m
+2026-02-18 07:40:41 - [0;34m  >> Password OK[0m
+2026-02-18 07:40:41 - [0;34m  >> Testing MySQL...[0m
+2026-02-18 07:40:41 - [0;34m  >> MySQL connection: SUCCESS[0m
+2026-02-18 07:40:41 - [0;34m  >> Running: Group_Hierarchy_Path[0m
+2026-02-18 07:40:41 - [0;34m  >> SUCCESS: Group_Hierarchy_Path (283 rows)[0m
+2026-02-18 07:40:41 - [0;34m  >> Running: Gateway_Count_By_Group[0m
+2026-02-18 07:40:41 - [0;34m  >> SUCCESS: Gateway_Count_By_Group (65 rows)[0m
+2026-02-18 07:40:41 - [0;34m  >> Running: User_List_With_Groups[0m
+2026-02-18 07:40:41 - [0;34m  >> SUCCESS: User_List_With_Groups (432 rows)[0m
+2026-02-18 07:40:41 - [0;34m  >> Running: Gateways_Registered_Last_30_Days[0m
+2026-02-18 07:40:41 - [0;34m  >> SUCCESS: Gateways_Registered_Last_30_Days (1 rows)[0m
+2026-02-18 07:40:41 - [0;34m  >> Running: Device_Level_Data[0m
+2026-02-18 07:40:41 - [0;34m  >> SUCCESS: Device_Level_Data (2990 rows)[0m
+2026-02-18 07:40:41 - [0;34m  >> TSV files: 5[0m
+2026-02-18 07:40:41 - [0;34m  >> -rw-r----- 1 imtadmin imtadmin 229K Feb 17 23:40 /tmp/Device_Level_Data_AMM02_20260218_073944.tsv[0m
+2026-02-18 07:40:41 - [0;34m  >> -rw-r----- 1 imtadmin imtadmin 1.5K Feb 17 23:40 /tmp/Gateway_Count_By_Group_AMM02_20260218_073944.tsv[0m
+2026-02-18 07:40:41 - [0;34m  >> -rw-r----- 1 imtadmin imtadmin   35 Feb 17 23:40 /tmp/Gateways_Registered_Last_30_Days_AMM02_20260218_073944.tsv[0m
+2026-02-18 07:40:41 - [0;34m  >> -rw-r----- 1 imtadmin imtadmin  12K Feb 17 23:40 /tmp/Group_Hierarchy_Path_AMM02_20260218_073944.tsv[0m
+2026-02-18 07:40:41 - [0;34m  >> -rw-r----- 1 imtadmin imtadmin  25K Feb 17 23:40 /tmp/User_List_With_Groups_AMM02_20260218_073944.tsv[0m
+2026-02-18 07:40:41 - [0;34m  >> SUCCESS: Results packaged[0m
+2026-02-18 07:40:41 - [0;34m  >> DUMP_FILE: /tmp/mysql_results_AMM02_20260218_073944.tar.gz[0m
+2026-02-18 07:40:41 - [0;34m  >> FILE_SIZE: 63K[0m
+2026-02-18 07:40:41 - [0;34mAnalysis: NoData=0, Errors=0[0m
+2026-02-18 07:40:41 - [0;34mDownloading tar...[0m
+2026-02-18 07:40:41 - [0;32mDownloaded (63K)[0m
+2026-02-18 07:40:41 - [0;34mCreating Excel for AMM02...[0m
+2026-02-18 07:40:42 - [0;32mExcel created[0m
+2026-02-18 07:40:42 - [1;33mS3 upload disabled[0m
+2026-02-18 07:40:42 - [0;34mUploading to SFTP...[0m
+2026-02-18 07:40:42 - Uploading to SFTP: ftp.semtech.com/amm-mysql-dumps/AMM02_20260218_074041.xlsx
+2026-02-18 07:40:44 - SFTP upload successful
+2026-02-18 07:40:44 - [0;32m✓ Done: AMM02[0m
+2026-02-18 07:40:44 - =====
+2026-02-18 07:40:44 - [1;33m===== Processing: AMM01 (amm01.airlink.com) =====[0m
+2026-02-18 07:40:44 - [0;34mTesting SSH: AMM01 (amm01.airlink.com)[0m
+2026-02-18 07:40:45 - [0;32mSSH successful[0m
+2026-02-18 07:40:45 - [0;34mCreating remote script...[0m
+2026-02-18 07:40:45 - [0;34mCopying script...[0m
+2026-02-18 07:40:45 - [0;32mScript copied[0m
+2026-02-18 07:40:45 - [0;34mExecuting queries...[0m
+2026-02-18 07:40:45 - [0;34mRemote output:[0m
+2026-02-18 07:40:45 - [0;34m  >> Any or all uses of this system and all files on this system may be[0m
+2026-02-18 07:40:45 - [0;34m  >> officials of other agencies, both domestic and foreign.[0m
+2026-02-18 07:40:45 - [0;34m  >> By using this system, the user consents to such interception, monitoring,[0m
+2026-02-18 07:40:45 - [0;34m  >> recording, copying, auditing, inspection, and disclosure at the discretion of[0m
+2026-02-18 07:40:45 - [0;34m  >> this system you indicate your awareness of and consent to these terms and[0m
+2026-02-18 07:40:45 - [0;34m  >> conditions of use. LOG OFF IMMEDIATELY if you do not agree to the condition[0m
+2026-02-18 07:40:45 - [0;34m  >> stated in this warning.[0m
+2026-02-18 07:40:45 - [0;34m  >> <13>Feb 17 23:40:45 imtadmin: Login as imtadmin by sahire via  172.31.5.208 49908 172.31.3.10 2222[0m
+2026-02-18 07:40:45 - [0;34m  >> === Starting Export on AMM01 ===[0m
+2026-02-18 07:40:45 - [0;34m  >> Password OK[0m
+2026-02-18 07:40:45 - [0;34m  >> Testing MySQL...[0m
+2026-02-18 07:40:45 - [0;34m  >> MySQL connection: SUCCESS[0m
+2026-02-18 07:40:45 - [0;34m  >> Running: Group_Hierarchy_Path[0m
+2026-02-18 07:40:45 - [0;34m  >> SUCCESS: Group_Hierarchy_Path (998 rows)[0m
+2026-02-18 07:40:45 - [0;34m  >> Running: Gateway_Count_By_Group[0m
+2026-02-18 07:40:45 - [0;34m  >> SUCCESS: Gateway_Count_By_Group (69 rows)[0m
+2026-02-18 07:40:45 - [0;34m  >> Running: User_List_With_Groups[0m
+2026-02-18 07:40:45 - [0;34m  >> SUCCESS: User_List_With_Groups (634 rows)[0m
+2026-02-18 07:40:45 - [0;34m  >> Running: Gateways_Registered_Last_30_Days[0m
+2026-02-18 07:40:45 - [0;34m  >> SUCCESS: Gateways_Registered_Last_30_Days (1 rows)[0m
+2026-02-18 07:40:45 - [0;34m  >> Running: Device_Level_Data[0m
+2026-02-18 07:40:45 - [0;34m  >> SUCCESS: Device_Level_Data (4747 rows)[0m
+2026-02-18 07:40:45 - [0;34m  >> TSV files: 5[0m
+2026-02-18 07:40:45 - [0;34m  >> -rw-r----- 1 imtadmin imtadmin 384K Feb 17 23:40 /tmp/Device_Level_Data_AMM01_20260218_073944.tsv[0m
+2026-02-18 07:40:45 - [0;34m  >> -rw-r----- 1 imtadmin imtadmin 1.4K Feb 17 23:40 /tmp/Gateway_Count_By_Group_AMM01_20260218_073944.tsv[0m
+2026-02-18 07:40:45 - [0;34m  >> -rw-r----- 1 imtadmin imtadmin   36 Feb 17 23:40 /tmp/Gateways_Registered_Last_30_Days_AMM01_20260218_073944.tsv[0m
+2026-02-18 07:40:45 - [0;34m  >> -rw-r----- 1 imtadmin imtadmin  40K Feb 17 23:40 /tmp/Group_Hierarchy_Path_AMM01_20260218_073944.tsv[0m
+2026-02-18 07:40:45 - [0;34m  >> -rw-r----- 1 imtadmin imtadmin  36K Feb 17 23:40 /tmp/User_List_With_Groups_AMM01_20260218_073944.tsv[0m
+2026-02-18 07:40:45 - [0;34m  >> SUCCESS: Results packaged[0m
+2026-02-18 07:40:45 - [0;34m  >> DUMP_FILE: /tmp/mysql_results_AMM01_20260218_073944.tar.gz[0m
+2026-02-18 07:40:45 - [0;34m  >> FILE_SIZE: 122K[0m
+2026-02-18 07:40:45 - [0;34mAnalysis: NoData=0, Errors=0[0m
+2026-02-18 07:40:45 - [0;34mDownloading tar...[0m
+2026-02-18 07:40:46 - [0;32mDownloaded (122K)[0m
+2026-02-18 07:40:46 - [0;34mCreating Excel for AMM01...[0m
+2026-02-18 07:40:47 - [0;32mExcel created[0m
+2026-02-18 07:40:47 - [1;33mS3 upload disabled[0m
+2026-02-18 07:40:47 - [0;34mUploading to SFTP...[0m
+2026-02-18 07:40:47 - Uploading to SFTP: ftp.semtech.com/amm-mysql-dumps/AMM01_20260218_074046.xlsx
+2026-02-18 07:40:49 - SFTP upload successful
+2026-02-18 07:40:49 - [0;32m✓ Done: AMM01[0m
+2026-02-18 07:40:49 - =====
+2026-02-18 07:40:49 - [1;33m===== Processing: AMM50 (amm50.airlink.com) =====[0m
+2026-02-18 07:40:49 - [0;34mTesting SSH: AMM50 (amm50.airlink.com)[0m
+2026-02-18 07:40:51 - [0;32mSSH successful[0m
+2026-02-18 07:40:51 - [0;34mCreating remote script...[0m
+2026-02-18 07:40:51 - [0;34mCopying script...[0m
+2026-02-18 07:40:53 - [0;32mScript copied[0m
+2026-02-18 07:40:53 - [0;34mExecuting queries...[0m
+2026-02-18 07:40:55 - [0;34mRemote output:[0m
+2026-02-18 07:40:55 - [0;34m  >> Any or all uses of this system and all files on this system may be[0m
+2026-02-18 07:40:55 - [0;34m  >> officials of other agencies, both domestic and foreign.[0m
+2026-02-18 07:40:55 - [0;34m  >> By using this system, the user consents to such interception, monitoring,[0m
+2026-02-18 07:40:55 - [0;34m  >> recording, copying, auditing, inspection, and disclosure at the discretion of[0m
+2026-02-18 07:40:55 - [0;34m  >> this system you indicate your awareness of and consent to these terms and[0m
+2026-02-18 07:40:55 - [0;34m  >> conditions of use. LOG OFF IMMEDIATELY if you do not agree to the condition[0m
+2026-02-18 07:40:55 - [0;34m  >> stated in this warning.[0m
+2026-02-18 07:40:55 - [0;34m  >> <13>Feb 17 23:40:55 imtadmin: Login as imtadmin by sahire via  16.144.11.125 54672 172.31.6.215 2222[0m
+2026-02-18 07:40:55 - [0;34m  >> === Starting Export on AMM50 ===[0m
+2026-02-18 07:40:55 - [0;34m  >> Password OK[0m
+2026-02-18 07:40:55 - [0;34m  >> Testing MySQL...[0m
+2026-02-18 07:40:55 - [0;34m  >> MySQL connection: SUCCESS[0m
+2026-02-18 07:40:55 - [0;34m  >> Running: Group_Hierarchy_Path[0m
+2026-02-18 07:40:55 - [0;34m  >> SUCCESS: Group_Hierarchy_Path (54 rows)[0m
+2026-02-18 07:40:55 - [0;34m  >> Running: Gateway_Count_By_Group[0m
+2026-02-18 07:40:55 - [0;34m  >> SUCCESS: Gateway_Count_By_Group (12 rows)[0m
+2026-02-18 07:40:55 - [0;34m  >> Running: User_List_With_Groups[0m
+2026-02-18 07:40:55 - [0;34m  >> SUCCESS: User_List_With_Groups (98 rows)[0m
+2026-02-18 07:40:55 - [0;34m  >> Running: Gateways_Registered_Last_30_Days[0m
+2026-02-18 07:40:55 - [0;34m  >> SUCCESS: Gateways_Registered_Last_30_Days (1 rows)[0m
+2026-02-18 07:40:55 - [0;34m  >> Running: Device_Level_Data[0m
+2026-02-18 07:40:55 - [0;34m  >> SUCCESS: Device_Level_Data (1633 rows)[0m
+2026-02-18 07:40:55 - [0;34m  >> TSV files: 5[0m
+2026-02-18 07:40:55 - [0;34m  >> -rw-r----- 1 imtadmin imtadmin 148K Feb 17 23:40 /tmp/Device_Level_Data_AMM50_20260218_073944.tsv[0m
+2026-02-18 07:40:55 - [0;34m  >> -rw-r----- 1 imtadmin imtadmin  259 Feb 17 23:40 /tmp/Gateway_Count_By_Group_AMM50_20260218_073944.tsv[0m
+2026-02-18 07:40:55 - [0;34m  >> -rw-r----- 1 imtadmin imtadmin   35 Feb 17 23:40 /tmp/Gateways_Registered_Last_30_Days_AMM50_20260218_073944.tsv[0m
+2026-02-18 07:40:55 - [0;34m  >> -rw-r----- 1 imtadmin imtadmin 2.0K Feb 17 23:40 /tmp/Group_Hierarchy_Path_AMM50_20260218_073944.tsv[0m
+2026-02-18 07:40:55 - [0;34m  >> -rw-r----- 1 imtadmin imtadmin 6.6K Feb 17 23:40 /tmp/User_List_With_Groups_AMM50_20260218_073944.tsv[0m
+2026-02-18 07:40:55 - [0;34m  >> SUCCESS: Results packaged[0m
+2026-02-18 07:40:55 - [0;34m  >> DUMP_FILE: /tmp/mysql_results_AMM50_20260218_073944.tar.gz[0m
+2026-02-18 07:40:55 - [0;34m  >> FILE_SIZE: 26K[0m
+2026-02-18 07:40:55 - [0;34mAnalysis: NoData=0, Errors=0[0m
+2026-02-18 07:40:55 - [0;34mDownloading tar...[0m
+2026-02-18 07:40:57 - [0;32mDownloaded (26K)[0m
+2026-02-18 07:40:58 - [0;34mCreating Excel for AMM50...[0m
+2026-02-18 07:40:58 - [0;32mExcel created[0m
+2026-02-18 07:40:58 - [1;33mS3 upload disabled[0m
+2026-02-18 07:40:58 - [0;34mUploading to SFTP...[0m
+2026-02-18 07:40:58 - Uploading to SFTP: ftp.semtech.com/amm-mysql-dumps/AMM50_20260218_074058.xlsx
+2026-02-18 07:41:00 - SFTP upload successful
+2026-02-18 07:41:02 - [0;32m✓ Done: AMM50[0m
+2026-02-18 07:41:02 - =====
+2026-02-18 07:41:02 - [1;33m===== Processing: AMM52 (amm52.airlink.com) =====[0m
+2026-02-18 07:41:02 - [0;34mTesting SSH: AMM52 (amm52.airlink.com)[0m
+2026-02-18 07:41:03 - [0;32mSSH successful[0m
+2026-02-18 07:41:03 - [0;34mCreating remote script...[0m
+2026-02-18 07:41:03 - [0;34mCopying script...[0m
+2026-02-18 07:41:05 - [0;32mScript copied[0m
+2026-02-18 07:41:05 - [0;34mExecuting queries...[0m
+2026-02-18 07:41:07 - [0;34mRemote output:[0m
+2026-02-18 07:41:07 - [0;34m  >> Any or all uses of this system and all files on this system may be[0m
+2026-02-18 07:41:07 - [0;34m  >> officials of other agencies, both domestic and foreign.[0m
+2026-02-18 07:41:07 - [0;34m  >> By using this system, the user consents to such interception, monitoring,[0m
+2026-02-18 07:41:07 - [0;34m  >> recording, copying, auditing, inspection, and disclosure at the discretion of[0m
+2026-02-18 07:41:07 - [0;34m  >> this system you indicate your awareness of and consent to these terms and[0m
+2026-02-18 07:41:07 - [0;34m  >> conditions of use. LOG OFF IMMEDIATELY if you do not agree to the condition[0m
+2026-02-18 07:41:07 - [0;34m  >> stated in this warning.[0m
+2026-02-18 07:41:07 - [0;34m  >> <13>Feb 17 23:41:07 imtadmin: Login as imtadmin by sahire via  16.144.11.125 57248 172.31.29.187 2222[0m
+2026-02-18 07:41:07 - [0;34m  >> === Starting Export on AMM52 ===[0m
+2026-02-18 07:41:07 - [0;34m  >> Password OK[0m
+2026-02-18 07:41:07 - [0;34m  >> Testing MySQL...[0m
+2026-02-18 07:41:07 - [0;34m  >> MySQL connection: SUCCESS[0m
+2026-02-18 07:41:07 - [0;34m  >> Running: Group_Hierarchy_Path[0m
+2026-02-18 07:41:07 - [0;34m  >> SUCCESS: Group_Hierarchy_Path (12 rows)[0m
+2026-02-18 07:41:07 - [0;34m  >> Running: Gateway_Count_By_Group[0m
+2026-02-18 07:41:07 - [0;34m  >> SUCCESS: Gateway_Count_By_Group (4 rows)[0m
+2026-02-18 07:41:07 - [0;34m  >> Running: User_List_With_Groups[0m
+2026-02-18 07:41:07 - [0;34m  >> SUCCESS: User_List_With_Groups (11 rows)[0m
+2026-02-18 07:41:07 - [0;34m  >> Running: Gateways_Registered_Last_30_Days[0m
+2026-02-18 07:41:07 - [0;34m  >> SUCCESS: Gateways_Registered_Last_30_Days (1 rows)[0m
+2026-02-18 07:41:07 - [0;34m  >> Running: Device_Level_Data[0m
+2026-02-18 07:41:07 - [0;34m  >> SUCCESS: Device_Level_Data (101 rows)[0m
+2026-02-18 07:41:07 - [0;34m  >> TSV files: 5[0m
+2026-02-18 07:41:07 - [0;34m  >> -rw-r----- 1 imtadmin imtadmin 8.9K Feb 17 23:41 /tmp/Device_Level_Data_AMM52_20260218_073944.tsv[0m
+2026-02-18 07:41:07 - [0;34m  >> -rw-r----- 1 imtadmin imtadmin  116 Feb 17 23:41 /tmp/Gateway_Count_By_Group_AMM52_20260218_073944.tsv[0m
+2026-02-18 07:41:07 - [0;34m  >> -rw-r----- 1 imtadmin imtadmin   35 Feb 17 23:41 /tmp/Gateways_Registered_Last_30_Days_AMM52_20260218_073944.tsv[0m
+2026-02-18 07:41:07 - [0;34m  >> -rw-r----- 1 imtadmin imtadmin  382 Feb 17 23:41 /tmp/Group_Hierarchy_Path_AMM52_20260218_073944.tsv[0m
+2026-02-18 07:41:07 - [0;34m  >> -rw-r----- 1 imtadmin imtadmin  656 Feb 17 23:41 /tmp/User_List_With_Groups_AMM52_20260218_073944.tsv[0m
+2026-02-18 07:41:07 - [0;34m  >> SUCCESS: Results packaged[0m
+2026-02-18 07:41:07 - [0;34m  >> DUMP_FILE: /tmp/mysql_results_AMM52_20260218_073944.tar.gz[0m
+2026-02-18 07:41:07 - [0;34m  >> FILE_SIZE: 2.7K[0m
+2026-02-18 07:41:07 - [0;34mAnalysis: NoData=0, Errors=0[0m
+2026-02-18 07:41:07 - [0;34mDownloading tar...[0m
+2026-02-18 07:41:09 - [0;32mDownloaded (2.7K)[0m
+2026-02-18 07:41:09 - [0;34mCreating Excel for AMM52...[0m
+2026-02-18 07:41:09 - [0;32mExcel created[0m
+2026-02-18 07:41:09 - [1;33mS3 upload disabled[0m
+2026-02-18 07:41:09 - [0;34mUploading to SFTP...[0m
+2026-02-18 07:41:09 - Uploading to SFTP: ftp.semtech.com/amm-mysql-dumps/AMM52_20260218_074109.xlsx
+2026-02-18 07:41:11 - SFTP upload successful
+2026-02-18 07:41:12 - [0;32m✓ Done: AMM52[0m
+2026-02-18 07:41:12 - =====
+2026-02-18 07:41:12 - [1;33m===== Processing: AMM10 (amm10.airlink.com) =====[0m
+2026-02-18 07:41:12 - [0;34mTesting SSH: AMM10 (amm10.airlink.com)[0m
+2026-02-18 07:41:13 - [0;32mSSH successful[0m
+2026-02-18 07:41:13 - [0;34mCreating remote script...[0m
+2026-02-18 07:41:13 - [0;34mCopying script...[0m
+2026-02-18 07:41:13 - [0;32mScript copied[0m
+2026-02-18 07:41:13 - [0;34mExecuting queries...[0m
+2026-02-18 07:41:13 - [0;34mRemote output:[0m
+2026-02-18 07:41:13 - [0;34m  >> Any or all uses of this system and all files on this system may be[0m
+2026-02-18 07:41:13 - [0;34m  >> officials of other agencies, both domestic and foreign.[0m
+2026-02-18 07:41:13 - [0;34m  >> By using this system, the user consents to such interception, monitoring,[0m
+2026-02-18 07:41:13 - [0;34m  >> recording, copying, auditing, inspection, and disclosure at the discretion of[0m
+2026-02-18 07:41:13 - [0;34m  >> this system you indicate your awareness of and consent to these terms and[0m
+2026-02-18 07:41:13 - [0;34m  >> conditions of use. LOG OFF IMMEDIATELY if you do not agree to the condition[0m
+2026-02-18 07:41:13 - [0;34m  >> stated in this warning.[0m
+2026-02-18 07:41:13 - [0;34m  >> <13>Feb 17 23:41:13 imtadmin: Login as imtadmin by sahire via  172.31.5.208 51714 172.31.5.220 2222[0m
+2026-02-18 07:41:13 - [0;34m  >> === Starting Export on AMM10 ===[0m
+2026-02-18 07:41:13 - [0;34m  >> Password OK[0m
+2026-02-18 07:41:13 - [0;34m  >> Testing MySQL...[0m
+2026-02-18 07:41:13 - [0;34m  >> MySQL connection: SUCCESS[0m
+2026-02-18 07:41:13 - [0;34m  >> Running: Group_Hierarchy_Path[0m
+2026-02-18 07:41:13 - [0;34m  >> SUCCESS: Group_Hierarchy_Path (374 rows)[0m
+2026-02-18 07:41:13 - [0;34m  >> Running: Gateway_Count_By_Group[0m
+2026-02-18 07:41:13 - [0;34m  >> SUCCESS: Gateway_Count_By_Group (141 rows)[0m
+2026-02-18 07:41:13 - [0;34m  >> Running: User_List_With_Groups[0m
+2026-02-18 07:41:13 - [0;34m  >> SUCCESS: User_List_With_Groups (403 rows)[0m
+2026-02-18 07:41:13 - [0;34m  >> Running: Gateways_Registered_Last_30_Days[0m
+2026-02-18 07:41:13 - [0;34m  >> SUCCESS: Gateways_Registered_Last_30_Days (1 rows)[0m
+2026-02-18 07:41:13 - [0;34m  >> Running: Device_Level_Data[0m
+2026-02-18 07:41:13 - [0;34m  >> SUCCESS: Device_Level_Data (6000 rows)[0m
+2026-02-18 07:41:13 - [0;34m  >> TSV files: 5[0m
+2026-02-18 07:41:13 - [0;34m  >> -rw-r----- 1 imtadmin imtadmin 479K Feb 17 23:41 /tmp/Device_Level_Data_AMM10_20260218_073944.tsv[0m
+2026-02-18 07:41:13 - [0;34m  >> -rw-r----- 1 imtadmin imtadmin 3.2K Feb 17 23:41 /tmp/Gateway_Count_By_Group_AMM10_20260218_073944.tsv[0m
+2026-02-18 07:41:13 - [0;34m  >> -rw-r----- 1 imtadmin imtadmin   35 Feb 17 23:41 /tmp/Gateways_Registered_Last_30_Days_AMM10_20260218_073944.tsv[0m
+2026-02-18 07:41:13 - [0;34m  >> -rw-r----- 1 imtadmin imtadmin  17K Feb 17 23:41 /tmp/Group_Hierarchy_Path_AMM10_20260218_073944.tsv[0m
+2026-02-18 07:41:13 - [0;34m  >> -rw-r----- 1 imtadmin imtadmin  24K Feb 17 23:41 /tmp/User_List_With_Groups_AMM10_20260218_073944.tsv[0m
+2026-02-18 07:41:13 - [0;34m  >> SUCCESS: Results packaged[0m
+2026-02-18 07:41:13 - [0;34m  >> DUMP_FILE: /tmp/mysql_results_AMM10_20260218_073944.tar.gz[0m
+2026-02-18 07:41:13 - [0;34m  >> FILE_SIZE: 110K[0m
+2026-02-18 07:41:13 - [0;34mAnalysis: NoData=0, Errors=0[0m
+2026-02-18 07:41:13 - [0;34mDownloading tar...[0m
+2026-02-18 07:41:14 - [0;32mDownloaded (110K)[0m
+2026-02-18 07:41:14 - [0;34mCreating Excel for AMM10...[0m
+2026-02-18 07:41:15 - [0;32mExcel created[0m
+2026-02-18 07:41:15 - [1;33mS3 upload disabled[0m
+2026-02-18 07:41:15 - [0;34mUploading to SFTP...[0m
+2026-02-18 07:41:15 - Uploading to SFTP: ftp.semtech.com/amm-mysql-dumps/AMM10_20260218_074114.xlsx
+2026-02-18 07:41:18 - SFTP upload successful
+2026-02-18 07:41:18 - [0;32m✓ Done: AMM10[0m
+2026-02-18 07:41:18 - =====
+2026-02-18 07:41:18 - [1;33m===== Processing: AMM11 (amm11.airlink.com) =====[0m
+2026-02-18 07:41:18 - [0;34mTesting SSH: AMM11 (amm11.airlink.com)[0m
+2026-02-18 07:41:18 - [0;32mSSH successful[0m
+2026-02-18 07:41:18 - [0;34mCreating remote script...[0m
+2026-02-18 07:41:18 - [0;34mCopying script...[0m
+2026-02-18 07:41:18 - [0;32mScript copied[0m
+2026-02-18 07:41:18 - [0;34mExecuting queries...[0m
+2026-02-18 07:41:19 - [0;34mRemote output:[0m
+2026-02-18 07:41:19 - [0;34m  >> Any or all uses of this system and all files on this system may be[0m
+2026-02-18 07:41:19 - [0;34m  >> officials of other agencies, both domestic and foreign.[0m
+2026-02-18 07:41:19 - [0;34m  >> By using this system, the user consents to such interception, monitoring,[0m
+2026-02-18 07:41:19 - [0;34m  >> recording, copying, auditing, inspection, and disclosure at the discretion of[0m
+2026-02-18 07:41:19 - [0;34m  >> this system you indicate your awareness of and consent to these terms and[0m
+2026-02-18 07:41:19 - [0;34m  >> conditions of use. LOG OFF IMMEDIATELY if you do not agree to the condition[0m
+2026-02-18 07:41:19 - [0;34m  >> stated in this warning.[0m
+2026-02-18 07:41:19 - [0;34m  >> <13>Feb 17 23:41:18 imtadmin: Login as imtadmin by sahire via  172.31.5.208 60514 172.31.41.184 2222[0m
+2026-02-18 07:41:19 - [0;34m  >> === Starting Export on AMM11 ===[0m
+2026-02-18 07:41:19 - [0;34m  >> Password OK[0m
+2026-02-18 07:41:19 - [0;34m  >> Testing MySQL...[0m
+2026-02-18 07:41:19 - [0;34m  >> MySQL connection: SUCCESS[0m
+2026-02-18 07:41:19 - [0;34m  >> Running: Group_Hierarchy_Path[0m
+2026-02-18 07:41:19 - [0;34m  >> SUCCESS: Group_Hierarchy_Path (121 rows)[0m
+2026-02-18 07:41:19 - [0;34m  >> Running: Gateway_Count_By_Group[0m
+2026-02-18 07:41:19 - [0;34m  >> SUCCESS: Gateway_Count_By_Group (46 rows)[0m
+2026-02-18 07:41:19 - [0;34m  >> Running: User_List_With_Groups[0m
+2026-02-18 07:41:19 - [0;34m  >> SUCCESS: User_List_With_Groups (182 rows)[0m
+2026-02-18 07:41:19 - [0;34m  >> Running: Gateways_Registered_Last_30_Days[0m
+2026-02-18 07:41:19 - [0;34m  >> SUCCESS: Gateways_Registered_Last_30_Days (1 rows)[0m
+2026-02-18 07:41:19 - [0;34m  >> Running: Device_Level_Data[0m
+2026-02-18 07:41:19 - [0;34m  >> SUCCESS: Device_Level_Data (2319 rows)[0m
+2026-02-18 07:41:19 - [0;34m  >> TSV files: 5[0m
+2026-02-18 07:41:19 - [0;34m  >> -rw-r----- 1 imtadmin imtadmin 180K Feb 17 23:41 /tmp/Device_Level_Data_AMM11_20260218_073944.tsv[0m
+2026-02-18 07:41:19 - [0;34m  >> -rw-r----- 1 imtadmin imtadmin  927 Feb 17 23:41 /tmp/Gateway_Count_By_Group_AMM11_20260218_073944.tsv[0m
+2026-02-18 07:41:19 - [0;34m  >> -rw-r----- 1 imtadmin imtadmin   35 Feb 17 23:41 /tmp/Gateways_Registered_Last_30_Days_AMM11_20260218_073944.tsv[0m
+2026-02-18 07:41:19 - [0;34m  >> -rw-r----- 1 imtadmin imtadmin 5.3K Feb 17 23:41 /tmp/Group_Hierarchy_Path_AMM11_20260218_073944.tsv[0m
+2026-02-18 07:41:19 - [0;34m  >> -rw-r----- 1 imtadmin imtadmin  11K Feb 17 23:41 /tmp/User_List_With_Groups_AMM11_20260218_073944.tsv[0m
+2026-02-18 07:41:19 - [0;34m  >> SUCCESS: Results packaged[0m
+2026-02-18 07:41:19 - [0;34m  >> DUMP_FILE: /tmp/mysql_results_AMM11_20260218_073944.tar.gz[0m
+2026-02-18 07:41:19 - [0;34m  >> FILE_SIZE: 40K[0m
+2026-02-18 07:41:19 - [0;34mAnalysis: NoData=0, Errors=0[0m
+2026-02-18 07:41:19 - [0;34mDownloading tar...[0m
+2026-02-18 07:41:20 - [0;32mDownloaded (40K)[0m
+2026-02-18 07:41:20 - [0;34mCreating Excel for AMM11...[0m
+2026-02-18 07:41:20 - [0;32mExcel created[0m
+2026-02-18 07:41:20 - [1;33mS3 upload disabled[0m
+2026-02-18 07:41:20 - [0;34mUploading to SFTP...[0m
+2026-02-18 07:41:20 - Uploading to SFTP: ftp.semtech.com/amm-mysql-dumps/AMM11_20260218_074120.xlsx
+2026-02-18 07:41:22 - SFTP upload successful
+2026-02-18 07:41:22 - [0;32m✓ Done: AMM11[0m
+2026-02-18 07:41:22 - =====
+2026-02-18 07:41:22 - [1;33m===== Processing: AMM87 (amm87.airlink.com) =====[0m
+2026-02-18 07:41:22 - [0;34mTesting SSH: AMM87 (amm87.airlink.com)[0m
+2026-02-18 07:41:23 - [0;32mSSH successful[0m
+2026-02-18 07:41:23 - [0;34mCreating remote script...[0m
+2026-02-18 07:41:23 - [0;34mCopying script...[0m
+2026-02-18 07:41:23 - [0;32mScript copied[0m
+2026-02-18 07:41:23 - [0;34mExecuting queries...[0m
+2026-02-18 07:41:41 - [0;34mRemote output:[0m
+2026-02-18 07:41:41 - [0;34m  >> Any or all uses of this system and all files on this system may be[0m
+2026-02-18 07:41:41 - [0;34m  >> officials of other agencies, both domestic and foreign.[0m
+2026-02-18 07:41:41 - [0;34m  >> By using this system, the user consents to such interception, monitoring,[0m
+2026-02-18 07:41:41 - [0;34m  >> recording, copying, auditing, inspection, and disclosure at the discretion of[0m
+2026-02-18 07:41:41 - [0;34m  >> this system you indicate your awareness of and consent to these terms and[0m
+2026-02-18 07:41:41 - [0;34m  >> conditions of use. LOG OFF IMMEDIATELY if you do not agree to the condition[0m
+2026-02-18 07:41:41 - [0;34m  >> stated in this warning.[0m
+2026-02-18 07:41:41 - [0;34m  >> <13>Feb 17 23:41:23 imtadmin: Login as imtadmin by sahire via  172.31.5.208 48694 172.31.10.7 2222[0m
+2026-02-18 07:41:41 - [0;34m  >> === Starting Export on AMM87 ===[0m
+2026-02-18 07:41:41 - [0;34m  >> Password OK[0m
+2026-02-18 07:41:41 - [0;34m  >> Testing MySQL...[0m
+2026-02-18 07:41:41 - [0;34m  >> MySQL connection: SUCCESS[0m
+2026-02-18 07:41:41 - [0;34m  >> Running: Group_Hierarchy_Path[0m
+2026-02-18 07:41:41 - [0;34m  >> SUCCESS: Group_Hierarchy_Path (32 rows)[0m
+2026-02-18 07:41:41 - [0;34m  >> Running: Gateway_Count_By_Group[0m
+2026-02-18 07:41:41 - [0;34m  >> SUCCESS: Gateway_Count_By_Group (23 rows)[0m
+2026-02-18 07:41:41 - [0;34m  >> Running: User_List_With_Groups[0m
+2026-02-18 07:41:41 - [0;34m  >> NO_DATA: User_List_With_Groups (empty)[0m
+2026-02-18 07:41:41 - [0;34m  >> QUERY_NODATA_User_List_With_Groups[0m
+2026-02-18 07:41:41 - [0;34m  >> Running: Gateways_Registered_Last_30_Days[0m
+2026-02-18 07:41:41 - [0;34m  >> SUCCESS: Gateways_Registered_Last_30_Days (1 rows)[0m
+2026-02-18 07:41:41 - [0;34m  >> Running: Device_Level_Data[0m
+2026-02-18 07:41:41 - [0;34m  >> SUCCESS: Device_Level_Data (1242 rows)[0m
+2026-02-18 07:41:41 - [0;34m  >> TSV files: 5[0m
+2026-02-18 07:41:41 - [0;34m  >> -rw-r----- 1 imtadmin imtadmin 119K Feb 17 23:41 /tmp/Device_Level_Data_AMM87_20260218_073944.tsv[0m
+2026-02-18 07:41:41 - [0;34m  >> -rw-r----- 1 imtadmin imtadmin  493 Feb 17 23:41 /tmp/Gateway_Count_By_Group_AMM87_20260218_073944.tsv[0m
+2026-02-18 07:41:41 - [0;34m  >> -rw-r----- 1 imtadmin imtadmin   35 Feb 17 23:41 /tmp/Gateways_Registered_Last_30_Days_AMM87_20260218_073944.tsv[0m
+2026-02-18 07:41:41 - [0;34m  >> -rw-r----- 1 imtadmin imtadmin 1.2K Feb 17 23:41 /tmp/Group_Hierarchy_Path_AMM87_20260218_073944.tsv[0m
+2026-02-18 07:41:41 - [0;34m  >> -rw-r----- 1 imtadmin imtadmin   18 Feb 17 23:41 /tmp/User_List_With_Groups_AMM87_20260218_073944.tsv[0m
+2026-02-18 07:41:41 - [0;34m  >> SUCCESS: Results packaged[0m
+2026-02-18 07:41:41 - [0;34m  >> DUMP_FILE: /tmp/mysql_results_AMM87_20260218_073944.tar.gz[0m
+2026-02-18 07:41:41 - [0;34m  >> FILE_SIZE: 25K[0m
+2026-02-18 07:41:41 - [0;34mAnalysis: NoData=1, Errors=0[0m
+2026-02-18 07:41:41 - [0;34mDownloading tar...[0m
+2026-02-18 07:41:41 - [0;32mDownloaded (25K)[0m
+2026-02-18 07:41:41 - [0;34mCreating Excel for AMM87...[0m
+2026-02-18 07:41:42 - [0;32mExcel created[0m
+2026-02-18 07:41:42 - [1;33mS3 upload disabled[0m
+2026-02-18 07:41:42 - [0;34mUploading to SFTP...[0m
+2026-02-18 07:41:42 - Uploading to SFTP: ftp.semtech.com/amm-mysql-dumps/AMM87_20260218_074141.xlsx
+2026-02-18 07:41:44 - SFTP upload successful
+2026-02-18 07:41:44 - [0;32m✓ Done: AMM87[0m
+2026-02-18 07:41:44 - =====
+2026-02-18 07:41:44 - [1;33m===== Processing: AMM86 (amm86.airlink.com) =====[0m
+2026-02-18 07:41:44 - [0;34mTesting SSH: AMM86 (amm86.airlink.com)[0m
+2026-02-18 07:41:44 - [0;32mSSH successful[0m
+2026-02-18 07:41:44 - [0;34mCreating remote script...[0m
+2026-02-18 07:41:44 - [0;34mCopying script...[0m
+2026-02-18 07:41:44 - [0;32mScript copied[0m
+2026-02-18 07:41:44 - [0;34mExecuting queries...[0m
+2026-02-18 07:41:46 - [0;34mRemote output:[0m
+2026-02-18 07:41:46 - [0;34m  >> Any or all uses of this system and all files on this system may be[0m
+2026-02-18 07:41:46 - [0;34m  >> officials of other agencies, both domestic and foreign.[0m
+2026-02-18 07:41:46 - [0;34m  >> By using this system, the user consents to such interception, monitoring,[0m
+2026-02-18 07:41:46 - [0;34m  >> recording, copying, auditing, inspection, and disclosure at the discretion of[0m
+2026-02-18 07:41:46 - [0;34m  >> this system you indicate your awareness of and consent to these terms and[0m
+2026-02-18 07:41:46 - [0;34m  >> conditions of use. LOG OFF IMMEDIATELY if you do not agree to the condition[0m
+2026-02-18 07:41:46 - [0;34m  >> stated in this warning.[0m
+2026-02-18 07:41:46 - [0;34m  >> <13>Feb 17 23:41:44 imtadmin: Login as imtadmin by sahire via  172.31.5.208 37860 172.31.0.246 2222[0m
+2026-02-18 07:41:46 - [0;34m  >> === Starting Export on AMM86 ===[0m
+2026-02-18 07:41:46 - [0;34m  >> Password OK[0m
+2026-02-18 07:41:46 - [0;34m  >> Testing MySQL...[0m
+2026-02-18 07:41:46 - [0;34m  >> MySQL connection: SUCCESS[0m
+2026-02-18 07:41:46 - [0;34m  >> Running: Group_Hierarchy_Path[0m
+2026-02-18 07:41:46 - [0;34m  >> SUCCESS: Group_Hierarchy_Path (330 rows)[0m
+2026-02-18 07:41:46 - [0;34m  >> Running: Gateway_Count_By_Group[0m
+2026-02-18 07:41:46 - [0;34m  >> SUCCESS: Gateway_Count_By_Group (146 rows)[0m
+2026-02-18 07:41:46 - [0;34m  >> Running: User_List_With_Groups[0m
+2026-02-18 07:41:46 - [0;34m  >> SUCCESS: User_List_With_Groups (375 rows)[0m
+2026-02-18 07:41:46 - [0;34m  >> Running: Gateways_Registered_Last_30_Days[0m
+2026-02-18 07:41:46 - [0;34m  >> SUCCESS: Gateways_Registered_Last_30_Days (1 rows)[0m
+2026-02-18 07:41:46 - [0;34m  >> Running: Device_Level_Data[0m
+2026-02-18 07:41:46 - [0;34m  >> SUCCESS: Device_Level_Data (1623 rows)[0m
+2026-02-18 07:41:46 - [0;34m  >> TSV files: 5[0m
+2026-02-18 07:41:46 - [0;34m  >> -rw-r----- 1 imtadmin imtadmin 142K Feb 17 23:41 /tmp/Device_Level_Data_AMM86_20260218_073944.tsv[0m
+2026-02-18 07:41:46 - [0;34m  >> -rw-r----- 1 imtadmin imtadmin 2.8K Feb 17 23:41 /tmp/Gateway_Count_By_Group_AMM86_20260218_073944.tsv[0m
+2026-02-18 07:41:46 - [0;34m  >> -rw-r----- 1 imtadmin imtadmin   35 Feb 17 23:41 /tmp/Gateways_Registered_Last_30_Days_AMM86_20260218_073944.tsv[0m
+2026-02-18 07:41:46 - [0;34m  >> -rw-r----- 1 imtadmin imtadmin 8.4K Feb 17 23:41 /tmp/Group_Hierarchy_Path_AMM86_20260218_073944.tsv[0m
+2026-02-18 07:41:46 - [0;34m  >> -rw-r----- 1 imtadmin imtadmin  21K Feb 17 23:41 /tmp/User_List_With_Groups_AMM86_20260218_073944.tsv[0m
+2026-02-18 07:41:46 - [0;34m  >> SUCCESS: Results packaged[0m
+2026-02-18 07:41:46 - [0;34m  >> DUMP_FILE: /tmp/mysql_results_AMM86_20260218_073944.tar.gz[0m
+2026-02-18 07:41:46 - [0;34m  >> FILE_SIZE: 41K[0m
+2026-02-18 07:41:46 - [0;34mAnalysis: NoData=0, Errors=0[0m
+2026-02-18 07:41:46 - [0;34mDownloading tar...[0m
+2026-02-18 07:41:46 - [0;32mDownloaded (41K)[0m
+2026-02-18 07:41:46 - [0;34mCreating Excel for AMM86...[0m
+2026-02-18 07:41:47 - [0;32mExcel created[0m
+2026-02-18 07:41:47 - [1;33mS3 upload disabled[0m
+2026-02-18 07:41:47 - [0;34mUploading to SFTP...[0m
+2026-02-18 07:41:47 - Uploading to SFTP: ftp.semtech.com/amm-mysql-dumps/AMM86_20260218_074146.xlsx
+2026-02-18 07:41:49 - SFTP upload successful
+2026-02-18 07:41:49 - [0;32m✓ Done: AMM86[0m
+2026-02-18 07:41:49 - =====
+2026-02-18 07:41:49 - [1;33m===== Processing: AMM84 (amm84.airlink.com) =====[0m
+2026-02-18 07:41:49 - [0;34mTesting SSH: AMM84 (amm84.airlink.com)[0m
+2026-02-18 07:41:50 - [0;32mSSH successful[0m
+2026-02-18 07:41:50 - [0;34mCreating remote script...[0m
+2026-02-18 07:41:50 - [0;34mCopying script...[0m
+2026-02-18 07:41:50 - [0;32mScript copied[0m
+2026-02-18 07:41:50 - [0;34mExecuting queries...[0m
+2026-02-18 07:41:51 - [0;34mRemote output:[0m
+2026-02-18 07:41:51 - [0;34m  >> Any or all uses of this system and all files on this system may be[0m
+2026-02-18 07:41:51 - [0;34m  >> officials of other agencies, both domestic and foreign.[0m
+2026-02-18 07:41:51 - [0;34m  >> By using this system, the user consents to such interception, monitoring,[0m
+2026-02-18 07:41:51 - [0;34m  >> recording, copying, auditing, inspection, and disclosure at the discretion of[0m
+2026-02-18 07:41:51 - [0;34m  >> this system you indicate your awareness of and consent to these terms and[0m
+2026-02-18 07:41:51 - [0;34m  >> conditions of use. LOG OFF IMMEDIATELY if you do not agree to the condition[0m
+2026-02-18 07:41:51 - [0;34m  >> stated in this warning.[0m
+2026-02-18 07:41:51 - [0;34m  >> <13>Feb 17 23:41:50 imtadmin: Login as imtadmin by sahire via  172.31.5.208 37314 172.31.2.176 2222[0m
+2026-02-18 07:41:51 - [0;34m  >> === Starting Export on AMM84 ===[0m
+2026-02-18 07:41:51 - [0;34m  >> Password OK[0m
+2026-02-18 07:41:51 - [0;34m  >> Testing MySQL...[0m
+2026-02-18 07:41:51 - [0;34m  >> MySQL connection: SUCCESS[0m
+2026-02-18 07:41:51 - [0;34m  >> Running: Group_Hierarchy_Path[0m
+2026-02-18 07:41:51 - [0;34m  >> SUCCESS: Group_Hierarchy_Path (16 rows)[0m
+2026-02-18 07:41:51 - [0;34m  >> Running: Gateway_Count_By_Group[0m
+2026-02-18 07:41:51 - [0;34m  >> SUCCESS: Gateway_Count_By_Group (9 rows)[0m
+2026-02-18 07:41:51 - [0;34m  >> Running: User_List_With_Groups[0m
+2026-02-18 07:41:51 - [0;34m  >> SUCCESS: User_List_With_Groups (1 rows)[0m
+2026-02-18 07:41:51 - [0;34m  >> Running: Gateways_Registered_Last_30_Days[0m
+2026-02-18 07:41:51 - [0;34m  >> SUCCESS: Gateways_Registered_Last_30_Days (1 rows)[0m
+2026-02-18 07:41:51 - [0;34m  >> Running: Device_Level_Data[0m
+2026-02-18 07:41:51 - [0;34m  >> SUCCESS: Device_Level_Data (800 rows)[0m
+2026-02-18 07:41:51 - [0;34m  >> TSV files: 5[0m
+2026-02-18 07:41:51 - [0;34m  >> -rw-r----- 1 imtadmin imtadmin 64K Feb 17 23:41 /tmp/Device_Level_Data_AMM84_20260218_073944.tsv[0m
+2026-02-18 07:41:51 - [0;34m  >> -rw-r----- 1 imtadmin imtadmin 200 Feb 17 23:41 /tmp/Gateway_Count_By_Group_AMM84_20260218_073944.tsv[0m
+2026-02-18 07:41:51 - [0;34m  >> -rw-r----- 1 imtadmin imtadmin  35 Feb 17 23:41 /tmp/Gateways_Registered_Last_30_Days_AMM84_20260218_073944.tsv[0m
+2026-02-18 07:41:51 - [0;34m  >> -rw-r----- 1 imtadmin imtadmin 603 Feb 17 23:41 /tmp/Group_Hierarchy_Path_AMM84_20260218_073944.tsv[0m
+2026-02-18 07:41:51 - [0;34m  >> -rw-r----- 1 imtadmin imtadmin  85 Feb 17 23:41 /tmp/User_List_With_Groups_AMM84_20260218_073944.tsv[0m
+2026-02-18 07:41:51 - [0;34m  >> SUCCESS: Results packaged[0m
+2026-02-18 07:41:51 - [0;34m  >> DUMP_FILE: /tmp/mysql_results_AMM84_20260218_073944.tar.gz[0m
+2026-02-18 07:41:51 - [0;34m  >> FILE_SIZE: 13K[0m
+2026-02-18 07:41:51 - [0;34mAnalysis: NoData=0, Errors=0[0m
+2026-02-18 07:41:51 - [0;34mDownloading tar...[0m
+2026-02-18 07:41:51 - [0;32mDownloaded (13K)[0m
+2026-02-18 07:41:51 - [0;34mCreating Excel for AMM84...[0m
+2026-02-18 07:41:51 - [0;32mExcel created[0m
+2026-02-18 07:41:51 - [1;33mS3 upload disabled[0m
+2026-02-18 07:41:51 - [0;34mUploading to SFTP...[0m
+2026-02-18 07:41:51 - Uploading to SFTP: ftp.semtech.com/amm-mysql-dumps/AMM84_20260218_074151.xlsx
+2026-02-18 07:41:53 - SFTP upload successful
+2026-02-18 07:41:53 - [0;32m✓ Done: AMM84[0m
+2026-02-18 07:41:53 - =====
+2026-02-18 07:41:53 - [1;33m===== Processing: AMM82 (amm82.airlink.com) =====[0m
+2026-02-18 07:41:53 - [0;34mTesting SSH: AMM82 (amm82.airlink.com)[0m
+2026-02-18 07:41:54 - [0;32mSSH successful[0m
+2026-02-18 07:41:54 - [0;34mCreating remote script...[0m
+2026-02-18 07:41:54 - [0;34mCopying script...[0m
+2026-02-18 07:41:54 - [0;32mScript copied[0m
+2026-02-18 07:41:54 - [0;34mExecuting queries...[0m
+2026-02-18 07:41:55 - [0;34mRemote output:[0m
+2026-02-18 07:41:55 - [0;34m  >> Any or all uses of this system and all files on this system may be[0m
+2026-02-18 07:41:55 - [0;34m  >> officials of other agencies, both domestic and foreign.[0m
+2026-02-18 07:41:55 - [0;34m  >> By using this system, the user consents to such interception, monitoring,[0m
+2026-02-18 07:41:55 - [0;34m  >> recording, copying, auditing, inspection, and disclosure at the discretion of[0m
+2026-02-18 07:41:55 - [0;34m  >> this system you indicate your awareness of and consent to these terms and[0m
+2026-02-18 07:41:55 - [0;34m  >> conditions of use. LOG OFF IMMEDIATELY if you do not agree to the condition[0m
+2026-02-18 07:41:55 - [0;34m  >> stated in this warning.[0m
+2026-02-18 07:41:55 - [0;34m  >> <13>Feb 17 23:41:54 imtadmin: Login as imtadmin by sahire via  172.31.5.208 33344 172.31.47.3 2222[0m
+2026-02-18 07:41:55 - [0;34m  >> === Starting Export on AMM82 ===[0m
+2026-02-18 07:41:55 - [0;34m  >> Password OK[0m
+2026-02-18 07:41:55 - [0;34m  >> Testing MySQL...[0m
+2026-02-18 07:41:55 - [0;34m  >> MySQL connection: SUCCESS[0m
+2026-02-18 07:41:55 - [0;34m  >> Running: Group_Hierarchy_Path[0m
+2026-02-18 07:41:55 - [0;34m  >> SUCCESS: Group_Hierarchy_Path (18 rows)[0m
+2026-02-18 07:41:55 - [0;34m  >> Running: Gateway_Count_By_Group[0m
+2026-02-18 07:41:55 - [0;34m  >> SUCCESS: Gateway_Count_By_Group (7 rows)[0m
+2026-02-18 07:41:55 - [0;34m  >> Running: User_List_With_Groups[0m
+2026-02-18 07:41:55 - [0;34m  >> SUCCESS: User_List_With_Groups (4 rows)[0m
+2026-02-18 07:41:55 - [0;34m  >> Running: Gateways_Registered_Last_30_Days[0m
+2026-02-18 07:41:55 - [0;34m  >> SUCCESS: Gateways_Registered_Last_30_Days (1 rows)[0m
+2026-02-18 07:41:55 - [0;34m  >> Running: Device_Level_Data[0m
+2026-02-18 07:41:55 - [0;34m  >> SUCCESS: Device_Level_Data (1092 rows)[0m
+2026-02-18 07:41:55 - [0;34m  >> TSV files: 5[0m
+2026-02-18 07:41:55 - [0;34m  >> -rw-r----- 1 imtadmin imtadmin 109K Feb 17 23:41 /tmp/Device_Level_Data_AMM82_20260218_073944.tsv[0m
+2026-02-18 07:41:55 - [0;34m  >> -rw-r----- 1 imtadmin imtadmin  189 Feb 17 23:41 /tmp/Gateway_Count_By_Group_AMM82_20260218_073944.tsv[0m
+2026-02-18 07:41:55 - [0;34m  >> -rw-r----- 1 imtadmin imtadmin   35 Feb 17 23:41 /tmp/Gateways_Registered_Last_30_Days_AMM82_20260218_073944.tsv[0m
+2026-02-18 07:41:55 - [0;34m  >> -rw-r----- 1 imtadmin imtadmin  848 Feb 17 23:41 /tmp/Group_Hierarchy_Path_AMM82_20260218_073944.tsv[0m
+2026-02-18 07:41:55 - [0;34m  >> -rw-r----- 1 imtadmin imtadmin  256 Feb 17 23:41 /tmp/User_List_With_Groups_AMM82_20260218_073944.tsv[0m
+2026-02-18 07:41:55 - [0;34m  >> SUCCESS: Results packaged[0m
+2026-02-18 07:41:55 - [0;34m  >> DUMP_FILE: /tmp/mysql_results_AMM82_20260218_073944.tar.gz[0m
+2026-02-18 07:41:55 - [0;34m  >> FILE_SIZE: 20K[0m
+2026-02-18 07:41:55 - [0;34mAnalysis: NoData=0, Errors=0[0m
+2026-02-18 07:41:55 - [0;34mDownloading tar...[0m
+2026-02-18 07:41:55 - [0;32mDownloaded (20K)[0m
+2026-02-18 07:41:55 - [0;34mCreating Excel for AMM82...[0m
+2026-02-18 07:41:56 - [0;32mExcel created[0m
+2026-02-18 07:41:56 - [1;33mS3 upload disabled[0m
+2026-02-18 07:41:56 - [0;34mUploading to SFTP...[0m
+2026-02-18 07:41:56 - Uploading to SFTP: ftp.semtech.com/amm-mysql-dumps/AMM82_20260218_074155.xlsx
+2026-02-18 07:41:58 - SFTP upload successful
+2026-02-18 07:41:58 - [0;32m✓ Done: AMM82[0m
+2026-02-18 07:41:58 - =====
+2026-02-18 07:41:58 - [1;33m===== Processing: AMM81 (amm81.airlink.com) =====[0m
+2026-02-18 07:41:58 - [0;34mTesting SSH: AMM81 (amm81.airlink.com)[0m
+2026-02-18 07:41:58 - [0;32mSSH successful[0m
+2026-02-18 07:41:58 - [0;34mCreating remote script...[0m
+2026-02-18 07:41:58 - [0;34mCopying script...[0m
+2026-02-18 07:41:58 - [0;32mScript copied[0m
+2026-02-18 07:41:58 - [0;34mExecuting queries...[0m
+2026-02-18 07:41:59 - [0;34mRemote output:[0m
+2026-02-18 07:41:59 - [0;34m  >> Any or all uses of this system and all files on this system may be[0m
+2026-02-18 07:41:59 - [0;34m  >> officials of other agencies, both domestic and foreign.[0m
+2026-02-18 07:41:59 - [0;34m  >> By using this system, the user consents to such interception, monitoring,[0m
+2026-02-18 07:41:59 - [0;34m  >> recording, copying, auditing, inspection, and disclosure at the discretion of[0m
+2026-02-18 07:41:59 - [0;34m  >> this system you indicate your awareness of and consent to these terms and[0m
+2026-02-18 07:41:59 - [0;34m  >> conditions of use. LOG OFF IMMEDIATELY if you do not agree to the condition[0m
+2026-02-18 07:41:59 - [0;34m  >> stated in this warning.[0m
+2026-02-18 07:41:59 - [0;34m  >> <13>Feb 17 23:41:58 imtadmin: Login as imtadmin by sahire via  172.31.5.208 60706 172.31.32.243 2222[0m
+2026-02-18 07:41:59 - [0;34m  >> === Starting Export on AMM81 ===[0m
+2026-02-18 07:41:59 - [0;34m  >> Password OK[0m
+2026-02-18 07:41:59 - [0;34m  >> Testing MySQL...[0m
+2026-02-18 07:41:59 - [0;34m  >> MySQL connection: SUCCESS[0m
+2026-02-18 07:41:59 - [0;34m  >> Running: Group_Hierarchy_Path[0m
+2026-02-18 07:41:59 - [0;34m  >> SUCCESS: Group_Hierarchy_Path (73 rows)[0m
+2026-02-18 07:41:59 - [0;34m  >> Running: Gateway_Count_By_Group[0m
+2026-02-18 07:41:59 - [0;34m  >> SUCCESS: Gateway_Count_By_Group (6 rows)[0m
+2026-02-18 07:41:59 - [0;34m  >> Running: User_List_With_Groups[0m
+2026-02-18 07:41:59 - [0;34m  >> SUCCESS: User_List_With_Groups (10 rows)[0m
+2026-02-18 07:41:59 - [0;34m  >> Running: Gateways_Registered_Last_30_Days[0m
+2026-02-18 07:41:59 - [0;34m  >> SUCCESS: Gateways_Registered_Last_30_Days (1 rows)[0m
+2026-02-18 07:41:59 - [0;34m  >> Running: Device_Level_Data[0m
+2026-02-18 07:41:59 - [0;34m  >> SUCCESS: Device_Level_Data (200 rows)[0m
+2026-02-18 07:41:59 - [0;34m  >> TSV files: 5[0m
+2026-02-18 07:41:59 - [0;34m  >> -rw-r----- 1 imtadmin imtadmin  16K Feb 17 23:41 /tmp/Device_Level_Data_AMM81_20260218_073944.tsv[0m
+2026-02-18 07:41:59 - [0;34m  >> -rw-r----- 1 imtadmin imtadmin  125 Feb 17 23:41 /tmp/Gateway_Count_By_Group_AMM81_20260218_073944.tsv[0m
+2026-02-18 07:41:59 - [0;34m  >> -rw-r----- 1 imtadmin imtadmin   35 Feb 17 23:41 /tmp/Gateways_Registered_Last_30_Days_AMM81_20260218_073944.tsv[0m
+2026-02-18 07:41:59 - [0;34m  >> -rw-r----- 1 imtadmin imtadmin 2.6K Feb 17 23:41 /tmp/Group_Hierarchy_Path_AMM81_20260218_073944.tsv[0m
+2026-02-18 07:41:59 - [0;34m  >> -rw-r----- 1 imtadmin imtadmin  485 Feb 17 23:41 /tmp/User_List_With_Groups_AMM81_20260218_073944.tsv[0m
+2026-02-18 07:41:59 - [0;34m  >> SUCCESS: Results packaged[0m
+2026-02-18 07:41:59 - [0;34m  >> DUMP_FILE: /tmp/mysql_results_AMM81_20260218_073944.tar.gz[0m
+2026-02-18 07:41:59 - [0;34m  >> FILE_SIZE: 6.9K[0m
+2026-02-18 07:41:59 - [0;34mAnalysis: NoData=0, Errors=0[0m
+2026-02-18 07:41:59 - [0;34mDownloading tar...[0m
+2026-02-18 07:41:59 - [0;32mDownloaded (6.9K)[0m
+2026-02-18 07:41:59 - [0;34mCreating Excel for AMM81...[0m
+2026-02-18 07:41:59 - [0;32mExcel created[0m
+2026-02-18 07:41:59 - [1;33mS3 upload disabled[0m
+2026-02-18 07:41:59 - [0;34mUploading to SFTP...[0m
+2026-02-18 07:41:59 - Uploading to SFTP: ftp.semtech.com/amm-mysql-dumps/AMM81_20260218_074159.xlsx
+2026-02-18 07:42:01 - SFTP upload successful
+2026-02-18 07:42:01 - [0;32m✓ Done: AMM81[0m
+2026-02-18 07:42:01 - =====
+2026-02-18 07:42:01 - [1;33m===== Processing: AMM89 (amm89.airlink.com) =====[0m
+2026-02-18 07:42:01 - [0;34mTesting SSH: AMM89 (amm89.airlink.com)[0m
+2026-02-18 07:42:02 - [0;32mSSH successful[0m
+2026-02-18 07:42:02 - [0;34mCreating remote script...[0m
+2026-02-18 07:42:02 - [0;34mCopying script...[0m
+2026-02-18 07:42:02 - [0;32mScript copied[0m
+2026-02-18 07:42:02 - [0;34mExecuting queries...[0m
+2026-02-18 07:42:07 - [0;34mRemote output:[0m
+2026-02-18 07:42:07 - [0;34m  >> Any or all uses of this system and all files on this system may be[0m
+2026-02-18 07:42:07 - [0;34m  >> officials of other agencies, both domestic and foreign.[0m
+2026-02-18 07:42:07 - [0;34m  >> By using this system, the user consents to such interception, monitoring,[0m
+2026-02-18 07:42:07 - [0;34m  >> recording, copying, auditing, inspection, and disclosure at the discretion of[0m
+2026-02-18 07:42:07 - [0;34m  >> this system you indicate your awareness of and consent to these terms and[0m
+2026-02-18 07:42:07 - [0;34m  >> conditions of use. LOG OFF IMMEDIATELY if you do not agree to the condition[0m
+2026-02-18 07:42:07 - [0;34m  >> stated in this warning.[0m
+2026-02-18 07:42:07 - [0;34m  >> <13>Feb 17 23:42:02 imtadmin: Login as imtadmin by sahire via  172.31.5.208 54844 172.31.38.96 2222[0m
+2026-02-18 07:42:07 - [0;34m  >> === Starting Export on AMM89 ===[0m
+2026-02-18 07:42:07 - [0;34m  >> Password OK[0m
+2026-02-18 07:42:07 - [0;34m  >> Testing MySQL...[0m
+2026-02-18 07:42:07 - [0;34m  >> MySQL connection: SUCCESS[0m
+2026-02-18 07:42:07 - [0;34m  >> Running: Group_Hierarchy_Path[0m
+2026-02-18 07:42:07 - [0;34m  >> SUCCESS: Group_Hierarchy_Path (40 rows)[0m
+2026-02-18 07:42:07 - [0;34m  >> Running: Gateway_Count_By_Group[0m
+2026-02-18 07:42:07 - [0;34m  >> SUCCESS: Gateway_Count_By_Group (13 rows)[0m
+2026-02-18 07:42:07 - [0;34m  >> Running: User_List_With_Groups[0m
+2026-02-18 07:42:07 - [0;34m  >> SUCCESS: User_List_With_Groups (23 rows)[0m
+2026-02-18 07:42:07 - [0;34m  >> Running: Gateways_Registered_Last_30_Days[0m
+2026-02-18 07:42:07 - [0;34m  >> SUCCESS: Gateways_Registered_Last_30_Days (1 rows)[0m
+2026-02-18 07:42:07 - [0;34m  >> Running: Device_Level_Data[0m
+2026-02-18 07:42:07 - [0;34m  >> SUCCESS: Device_Level_Data (3458 rows)[0m
+2026-02-18 07:42:07 - [0;34m  >> TSV files: 5[0m
+2026-02-18 07:42:07 - [0;34m  >> -rw-r----- 1 imtadmin imtadmin 193K Feb 17 23:42 /tmp/Device_Level_Data_AMM89_20260218_073944.tsv[0m
+2026-02-18 07:42:07 - [0;34m  >> -rw-r----- 1 imtadmin imtadmin  186 Feb 17 23:42 /tmp/Gateway_Count_By_Group_AMM89_20260218_073944.tsv[0m
+2026-02-18 07:42:07 - [0;34m  >> -rw-r----- 1 imtadmin imtadmin   35 Feb 17 23:42 /tmp/Gateways_Registered_Last_30_Days_AMM89_20260218_073944.tsv[0m
+2026-02-18 07:42:07 - [0;34m  >> -rw-r----- 1 imtadmin imtadmin 1002 Feb 17 23:42 /tmp/Group_Hierarchy_Path_AMM89_20260218_073944.tsv[0m
+2026-02-18 07:42:07 - [0;34m  >> -rw-r----- 1 imtadmin imtadmin 1023 Feb 17 23:42 /tmp/User_List_With_Groups_AMM89_20260218_073944.tsv[0m
+2026-02-18 07:42:07 - [0;34m  >> SUCCESS: Results packaged[0m
+2026-02-18 07:42:07 - [0;34m  >> DUMP_FILE: /tmp/mysql_results_AMM89_20260218_073944.tar.gz[0m
+2026-02-18 07:42:07 - [0;34m  >> FILE_SIZE: 38K[0m
+2026-02-18 07:42:07 - [0;34mAnalysis: NoData=0, Errors=0[0m
+2026-02-18 07:42:07 - [0;34mDownloading tar...[0m
+2026-02-18 07:42:07 - [0;32mDownloaded (38K)[0m
+2026-02-18 07:42:07 - [0;34mCreating Excel for AMM89...[0m
+2026-02-18 07:42:08 - [0;32mExcel created[0m
+2026-02-18 07:42:08 - [1;33mS3 upload disabled[0m
+2026-02-18 07:42:08 - [0;34mUploading to SFTP...[0m
+2026-02-18 07:42:08 - Uploading to SFTP: ftp.semtech.com/amm-mysql-dumps/AMM89_20260218_074207.xlsx
+2026-02-18 07:42:10 - SFTP upload successful
+2026-02-18 07:42:10 - [0;32m✓ Done: AMM89[0m
+2026-02-18 07:42:10 - =====
+2026-02-18 07:42:10 - [1;33m===== Processing: AMM88 (amm88.airlink.com) =====[0m
+2026-02-18 07:42:10 - [0;34mTesting SSH: AMM88 (amm88.airlink.com)[0m
+2026-02-18 07:42:10 - [0;32mSSH successful[0m
+2026-02-18 07:42:10 - [0;34mCreating remote script...[0m
+2026-02-18 07:42:10 - [0;34mCopying script...[0m
+2026-02-18 07:42:11 - [0;32mScript copied[0m
+2026-02-18 07:42:11 - [0;34mExecuting queries...[0m
+2026-02-18 07:42:46 - [0;34mRemote output:[0m
+2026-02-18 07:42:46 - [0;34m  >> Any or all uses of this system and all files on this system may be[0m
+2026-02-18 07:42:46 - [0;34m  >> officials of other agencies, both domestic and foreign.[0m
+2026-02-18 07:42:46 - [0;34m  >> By using this system, the user consents to such interception, monitoring,[0m
+2026-02-18 07:42:46 - [0;34m  >> recording, copying, auditing, inspection, and disclosure at the discretion of[0m
+2026-02-18 07:42:46 - [0;34m  >> this system you indicate your awareness of and consent to these terms and[0m
+2026-02-18 07:42:46 - [0;34m  >> conditions of use. LOG OFF IMMEDIATELY if you do not agree to the condition[0m
+2026-02-18 07:42:46 - [0;34m  >> stated in this warning.[0m
+2026-02-18 07:42:46 - [0;34m  >> <13>Feb 17 23:42:11 imtadmin: Login as imtadmin by sahire via  172.31.5.208 42402 172.31.28.4 2222[0m
+2026-02-18 07:42:46 - [0;34m  >> === Starting Export on AMM88 ===[0m
+2026-02-18 07:42:46 - [0;34m  >> Password OK[0m
+2026-02-18 07:42:46 - [0;34m  >> Testing MySQL...[0m
+2026-02-18 07:42:46 - [0;34m  >> MySQL connection: SUCCESS[0m
+2026-02-18 07:42:46 - [0;34m  >> Running: Group_Hierarchy_Path[0m
+2026-02-18 07:42:46 - [0;34m  >> SUCCESS: Group_Hierarchy_Path (37 rows)[0m
+2026-02-18 07:42:46 - [0;34m  >> Running: Gateway_Count_By_Group[0m
+2026-02-18 07:42:46 - [0;34m  >> SUCCESS: Gateway_Count_By_Group (27 rows)[0m
+2026-02-18 07:42:46 - [0;34m  >> Running: User_List_With_Groups[0m
+2026-02-18 07:42:46 - [0;34m  >> SUCCESS: User_List_With_Groups (28 rows)[0m
+2026-02-18 07:42:46 - [0;34m  >> Running: Gateways_Registered_Last_30_Days[0m
+2026-02-18 07:42:46 - [0;34m  >> SUCCESS: Gateways_Registered_Last_30_Days (1 rows)[0m
+2026-02-18 07:42:46 - [0;34m  >> Running: Device_Level_Data[0m
+2026-02-18 07:42:46 - [0;34m  >> SUCCESS: Device_Level_Data (1276 rows)[0m
+2026-02-18 07:42:46 - [0;34m  >> TSV files: 5[0m
+2026-02-18 07:42:46 - [0;34m  >> -rw-r----- 1 imtadmin imtadmin  92K Feb 17 23:42 /tmp/Device_Level_Data_AMM88_20260218_073944.tsv[0m
+2026-02-18 07:42:46 - [0;34m  >> -rw-r----- 1 imtadmin imtadmin  556 Feb 17 23:42 /tmp/Gateway_Count_By_Group_AMM88_20260218_073944.tsv[0m
+2026-02-18 07:42:46 - [0;34m  >> -rw-r----- 1 imtadmin imtadmin   35 Feb 17 23:42 /tmp/Gateways_Registered_Last_30_Days_AMM88_20260218_073944.tsv[0m
+2026-02-18 07:42:46 - [0;34m  >> -rw-r----- 1 imtadmin imtadmin 1005 Feb 17 23:42 /tmp/Group_Hierarchy_Path_AMM88_20260218_073944.tsv[0m
+2026-02-18 07:42:46 - [0;34m  >> -rw-r----- 1 imtadmin imtadmin 1.2K Feb 17 23:42 /tmp/User_List_With_Groups_AMM88_20260218_073944.tsv[0m
+2026-02-18 07:42:46 - [0;34m  >> SUCCESS: Results packaged[0m
+2026-02-18 07:42:46 - [0;34m  >> DUMP_FILE: /tmp/mysql_results_AMM88_20260218_073944.tar.gz[0m
+2026-02-18 07:42:46 - [0;34m  >> FILE_SIZE: 20K[0m
+2026-02-18 07:42:46 - [0;34mAnalysis: NoData=0, Errors=0[0m
+2026-02-18 07:42:46 - [0;34mDownloading tar...[0m
+2026-02-18 07:42:46 - [0;32mDownloaded (20K)[0m
+2026-02-18 07:42:46 - [0;34mCreating Excel for AMM88...[0m
+2026-02-18 07:42:47 - [0;32mExcel created[0m
+2026-02-18 07:42:47 - [1;33mS3 upload disabled[0m
+2026-02-18 07:42:47 - [0;34mUploading to SFTP...[0m
+2026-02-18 07:42:47 - Uploading to SFTP: ftp.semtech.com/amm-mysql-dumps/AMM88_20260218_074246.xlsx
+2026-02-18 07:42:49 - SFTP upload successful
+2026-02-18 07:42:49 - [0;32m✓ Done: AMM88[0m
+2026-02-18 07:42:49 - =====
+2026-02-18 07:42:49 - [1;33m===== Processing: AMM90 (amm90.airlink.com) =====[0m
+2026-02-18 07:42:49 - [0;34mTesting SSH: AMM90 (amm90.airlink.com)[0m
+2026-02-18 07:42:49 - [0;32mSSH successful[0m
+2026-02-18 07:42:49 - [0;34mCreating remote script...[0m
+2026-02-18 07:42:49 - [0;34mCopying script...[0m
+2026-02-18 07:42:49 - [0;32mScript copied[0m
+2026-02-18 07:42:49 - [0;34mExecuting queries...[0m
+2026-02-18 07:42:50 - [0;34mRemote output:[0m
+2026-02-18 07:42:50 - [0;34m  >> Any or all uses of this system and all files on this system may be[0m
+2026-02-18 07:42:50 - [0;34m  >> officials of other agencies, both domestic and foreign.[0m
+2026-02-18 07:42:50 - [0;34m  >> By using this system, the user consents to such interception, monitoring,[0m
+2026-02-18 07:42:50 - [0;34m  >> recording, copying, auditing, inspection, and disclosure at the discretion of[0m
+2026-02-18 07:42:50 - [0;34m  >> this system you indicate your awareness of and consent to these terms and[0m
+2026-02-18 07:42:50 - [0;34m  >> conditions of use. LOG OFF IMMEDIATELY if you do not agree to the condition[0m
+2026-02-18 07:42:50 - [0;34m  >> stated in this warning.[0m
+2026-02-18 07:42:50 - [0;34m  >> <13>Feb 17 23:42:50 imtadmin: Login as imtadmin by sahire via  172.31.5.208 35872 172.31.4.233 2222[0m
+2026-02-18 07:42:50 - [0;34m  >> === Starting Export on AMM90 ===[0m
+2026-02-18 07:42:50 - [0;34m  >> Password OK[0m
+2026-02-18 07:42:50 - [0;34m  >> Testing MySQL...[0m
+2026-02-18 07:42:50 - [0;34m  >> MySQL connection: SUCCESS[0m
+2026-02-18 07:42:50 - [0;34m  >> Running: Group_Hierarchy_Path[0m
+2026-02-18 07:42:50 - [0;34m  >> SUCCESS: Group_Hierarchy_Path (41 rows)[0m
+2026-02-18 07:42:50 - [0;34m  >> Running: Gateway_Count_By_Group[0m
+2026-02-18 07:42:50 - [0;34m  >> SUCCESS: Gateway_Count_By_Group (25 rows)[0m
+2026-02-18 07:42:50 - [0;34m  >> Running: User_List_With_Groups[0m
+2026-02-18 07:42:50 - [0;34m  >> SUCCESS: User_List_With_Groups (106 rows)[0m
+2026-02-18 07:42:50 - [0;34m  >> Running: Gateways_Registered_Last_30_Days[0m
+2026-02-18 07:42:50 - [0;34m  >> SUCCESS: Gateways_Registered_Last_30_Days (1 rows)[0m
+2026-02-18 07:42:50 - [0;34m  >> Running: Device_Level_Data[0m
+2026-02-18 07:42:50 - [0;34m  >> SUCCESS: Device_Level_Data (377 rows)[0m
+2026-02-18 07:42:50 - [0;34m  >> TSV files: 5[0m
+2026-02-18 07:42:50 - [0;34m  >> -rw-r----- 1 imtadmin imtadmin  36K Feb 17 23:42 /tmp/Device_Level_Data_AMM90_20260218_073944.tsv[0m
+2026-02-18 07:42:50 - [0;34m  >> -rw-r----- 1 imtadmin imtadmin  573 Feb 17 23:42 /tmp/Gateway_Count_By_Group_AMM90_20260218_073944.tsv[0m
+2026-02-18 07:42:50 - [0;34m  >> -rw-r----- 1 imtadmin imtadmin   35 Feb 17 23:42 /tmp/Gateways_Registered_Last_30_Days_AMM90_20260218_073944.tsv[0m
+2026-02-18 07:42:50 - [0;34m  >> -rw-r----- 1 imtadmin imtadmin 1.5K Feb 17 23:42 /tmp/Group_Hierarchy_Path_AMM90_20260218_073944.tsv[0m
+2026-02-18 07:42:50 - [0;34m  >> -rw-r----- 1 imtadmin imtadmin 6.0K Feb 17 23:42 /tmp/User_List_With_Groups_AMM90_20260218_073944.tsv[0m
+2026-02-18 07:42:50 - [0;34m  >> SUCCESS: Results packaged[0m
+2026-02-18 07:42:50 - [0;34m  >> DUMP_FILE: /tmp/mysql_results_AMM90_20260218_073944.tar.gz[0m
+2026-02-18 07:42:50 - [0;34m  >> FILE_SIZE: 8.5K[0m
+2026-02-18 07:42:50 - [0;34mAnalysis: NoData=0, Errors=0[0m
+2026-02-18 07:42:50 - [0;34mDownloading tar...[0m
+2026-02-18 07:42:50 - [0;32mDownloaded (8.5K)[0m
+2026-02-18 07:42:50 - [0;34mCreating Excel for AMM90...[0m
+2026-02-18 07:42:50 - [0;32mExcel created[0m
+2026-02-18 07:42:50 - [1;33mS3 upload disabled[0m
+2026-02-18 07:42:50 - [0;34mUploading to SFTP...[0m
+2026-02-18 07:42:50 - Uploading to SFTP: ftp.semtech.com/amm-mysql-dumps/AMM90_20260218_074250.xlsx
+2026-02-18 07:42:52 - SFTP upload successful
+2026-02-18 07:42:52 - [0;32m✓ Done: AMM90[0m
+2026-02-18 07:42:52 - =====
+2026-02-18 07:42:53 - Email summary sent to sahire@semtech.com,sharwani@semtech.com,ataneja@semtech.com,jniwalkar@semtech.com
+2026-02-18 07:42:53 - [0;32mEmail summary sent to sahire@semtech.com,sharwani@semtech.com,ataneja@semtech.com,jniwalkar@semtech.com[0m
+2026-02-18 07:42:53 - [0;32m=== Done ===[0m

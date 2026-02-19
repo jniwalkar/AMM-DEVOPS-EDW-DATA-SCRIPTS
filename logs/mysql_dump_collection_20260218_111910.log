@@ -1,0 +1,56 @@
+2026-02-18 11:19:10 - [0;34m=== MySQL Dump Started ===[0m
+2026-02-18 11:19:10 - [0;34mDate: Wed Feb 18 11:19:10 UTC 2026[0m
+2026-02-18 11:19:10 - [0;32mlftp available[0m
+2026-02-18 11:19:10 - [1;33mS3 upload disabled - skipping AWS CLI check[0m
+2026-02-18 11:19:10 - [0;32mEnvironment ready[0m
+2026-02-18 11:19:10 - [0;34mCleaning up SFTP data older than 3 months...[0m
+2026-02-18 11:19:10 - [0;34mDeleting files older than 20251120 from SFTP[0m
+2026-02-18 11:19:13 - [1;33mSFTP cleanup had some issues[0m
+2026-02-18 11:19:13 - [1;33m===== Processing: AMM06 (amm06.airlink.com) =====[0m
+2026-02-18 11:19:13 - [0;34mTesting SSH: AMM06 (amm06.airlink.com)[0m
+2026-02-18 11:19:14 - [0;32mSSH successful[0m
+2026-02-18 11:19:14 - [0;34mCreating remote script...[0m
+2026-02-18 11:19:14 - [0;34mCopying script...[0m
+2026-02-18 11:19:14 - [0;32mScript copied[0m
+2026-02-18 11:19:14 - [0;34mExecuting queries...[0m
+2026-02-18 11:19:16 - [0;34mRemote output:[0m
+2026-02-18 11:19:16 - [0;34m  >> Any or all uses of this system and all files on this system may be[0m
+2026-02-18 11:19:16 - [0;34m  >> officials of other agencies, both domestic and foreign.[0m
+2026-02-18 11:19:16 - [0;34m  >> By using this system, the user consents to such interception, monitoring,[0m
+2026-02-18 11:19:16 - [0;34m  >> recording, copying, auditing, inspection, and disclosure at the discretion of[0m
+2026-02-18 11:19:16 - [0;34m  >> this system you indicate your awareness of and consent to these terms and[0m
+2026-02-18 11:19:16 - [0;34m  >> conditions of use. LOG OFF IMMEDIATELY if you do not agree to the condition[0m
+2026-02-18 11:19:16 - [0;34m  >> stated in this warning.[0m
+2026-02-18 11:19:16 - [0;34m  >> <13>Feb 18 03:19:14 imtadmin: Login as imtadmin by sahire via  172.31.5.208 34586 172.31.44.168 2222[0m
+2026-02-18 11:19:16 - [0;34m  >> === Starting Export on AMM06 ===[0m
+2026-02-18 11:19:16 - [0;34m  >> Password OK[0m
+2026-02-18 11:19:16 - [0;34m  >> Testing MySQL...[0m
+2026-02-18 11:19:16 - [0;34m  >> MySQL connection: SUCCESS[0m
+2026-02-18 11:19:16 - [0;34m  >> Running: Group_Hierarchy_Path[0m
+2026-02-18 11:19:16 - [0;34m  >> SUCCESS: Group_Hierarchy_Path (167 rows)[0m
+2026-02-18 11:19:16 - [0;34m  >> Running: Gateway_Count_By_Group[0m
+2026-02-18 11:19:16 - [0;34m  >> SUCCESS: Gateway_Count_By_Group (43 rows)[0m
+2026-02-18 11:19:16 - [0;34m  >> Running: User_List_With_Groups[0m
+2026-02-18 11:19:16 - [0;34m  >> SUCCESS: User_List_With_Groups (232 rows)[0m
+2026-02-18 11:19:16 - [0;34m  >> Running: Gateways_Registered_Last_30_Days[0m
+2026-02-18 11:19:16 - [0;34m  >> SUCCESS: Gateways_Registered_Last_30_Days (1 rows)[0m
+2026-02-18 11:19:16 - [0;34m  >> Running: Device_Level_Data[0m
+2026-02-18 11:19:16 - [0;34m  >> SUCCESS: Device_Level_Data (5248 rows)[0m
+2026-02-18 11:19:16 - [0;34m  >> TSV files: 5[0m
+2026-02-18 11:19:16 - [0;34m  >> -rw-r----- 1 imtadmin imtadmin 348K Feb 18 03:19 /tmp/Device_Level_Data_AMM06_20260218_111910.tsv[0m
+2026-02-18 11:19:16 - [0;34m  >> -rw-r----- 1 imtadmin imtadmin  848 Feb 18 03:19 /tmp/Gateway_Count_By_Group_AMM06_20260218_111910.tsv[0m
+2026-02-18 11:19:16 - [0;34m  >> -rw-r----- 1 imtadmin imtadmin   36 Feb 18 03:19 /tmp/Gateways_Registered_Last_30_Days_AMM06_20260218_111910.tsv[0m
+2026-02-18 11:19:16 - [0;34m  >> -rw-r----- 1 imtadmin imtadmin 6.2K Feb 18 03:19 /tmp/Group_Hierarchy_Path_AMM06_20260218_111910.tsv[0m
+2026-02-18 11:19:16 - [0;34m  >> -rw-r----- 1 imtadmin imtadmin  12K Feb 18 03:19 /tmp/User_List_With_Groups_AMM06_20260218_111910.tsv[0m
+2026-02-18 11:19:16 - [0;34m  >> SUCCESS: Results packaged[0m
+2026-02-18 11:19:16 - [0;34m  >> DUMP_FILE: /tmp/mysql_results_AMM06_20260218_111910.tar.gz[0m
+2026-02-18 11:19:16 - [0;34m  >> FILE_SIZE: 70K[0m
+2026-02-18 11:19:16 - [0;34mAnalysis: NoData=0, Errors=0[0m
+2026-02-18 11:19:16 - [0;34mDownloading tar...[0m
+2026-02-18 11:19:17 - [0;32mDownloaded (70K)[0m
+2026-02-18 11:19:17 - [0;34mCreating Excel for AMM06...[0m
+2026-02-18 11:19:17 - [0;31mExcel failed[0m
+2026-02-18 11:19:17 - [0;31mExcel failed[0m
+2026-02-18 11:19:17 - Email summary sent to jniwalkar@semtech.com
+2026-02-18 11:19:17 - [0;32mEmail summary sent to jniwalkar@semtech.com[0m
+2026-02-18 11:19:17 - [0;32m=== Done ===[0m
