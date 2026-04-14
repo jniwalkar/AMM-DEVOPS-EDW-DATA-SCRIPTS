@@ -9,20 +9,17 @@ Usage: python3 create_excel_from_tsv.py <tsv_directory> <output_excel_file> <ser
 """
 
 import sys
+import re
 import os
 from openpyxl import Workbook
 from openpyxl.styles import Font, Alignment, PatternFill
 from datetime import datetime
 import re
 
-def sanitize_cell_value(value):
-    """Remove illegal characters that Excel/openpyxl cannot handle."""
+def sanitize(value):
     if isinstance(value, str):
-        # Remove control characters illegal in Excel XML
-        # Keeps: tab (0x09), newline (0x0A), carriage return (0x0D)
-        value = re.sub(r'[\x00-\x08\x0B\x0C\x0E-\x1F\x7F]', '', value)
+        return re.sub(r'[\x00-\x08\x0B\x0C\x0E-\x1F\x7F]', '', value)
     return value
-
 
 
 # Force unbuffered output
@@ -392,7 +389,7 @@ ORDER BY last_comm;"""
                         for col_idx, value in enumerate(values, start=2):
                             # Skip type conversion for large datasets to save CPU
                             if is_large_dataset:
-                                ws.cell(row=row_idx, column=col_idx, value=value)
+                                ws.cell(row=row_idx, column=col_idx, value=sanitize(value))
                             else:
                                 try:
                                     if value.isdigit():
@@ -400,7 +397,7 @@ ORDER BY last_comm;"""
                                     elif '.' in value and value.replace('.', '', 1).isdigit():
                                         ws.cell(row=row_idx, column=col_idx, value=float(value))
                                     else:
-                                        ws.cell(row=row_idx, column=col_idx, value=value)
+                                        ws.cell(row=row_idx, column=col_idx, value=sanitize(value))
                                 except:
                                     ws.cell(row=row_idx, column=col_idx, value=value)
                     
@@ -458,17 +455,17 @@ ORDER BY last_comm;"""
                     for col_idx, value in enumerate(values, start=2):
                         # Skip type conversion for large datasets to save CPU
                         if is_large_dataset:
-                            ws.cell(row=row_idx, column=col_idx, value=sanitize_cell_value(value))
+                            ws.cell(row=row_idx, column=col_idx, value=sanitize(value))
                         else:
                             try:
                                 if value.isdigit():
-                                    ws.cell(row=row_idx, column=col_idx, value=int(sanitize_cell_value(value)))
+                                    ws.cell(row=row_idx, column=col_idx, value=int(value))
                                 elif '.' in value and value.replace('.', '', 1).isdigit():
-                                    ws.cell(row=row_idx, column=col_idx, value=float(sanitize_cell_value(value)))
+                                    ws.cell(row=row_idx, column=col_idx, value=float(value))
                                 else:
-                                    ws.cell(row=row_idx, column=col_idx, value=sanitize_cell_value(value))
+                                    ws.cell(row=row_idx, column=col_idx, value=sanitize(value))
                             except:
-                                ws.cell(row=row_idx, column=col_idx, value=sanitize_cell_value(value))
+                                ws.cell(row=row_idx, column=col_idx, value=sanitize(value))
                 
                 # Adjust columns - simplified for large datasets
                 if is_large_dataset:
@@ -498,7 +495,7 @@ ORDER BY last_comm;"""
             ws = wb.create_sheet(query_name)
             ws['A1'] = "Error"
             ws['A1'].font = Font(bold=True, color="FF0000")
-            ws['A2'] = sanitize_cell_value(f"Failed: {str(e)}")
+            ws['A2'] = sanitize(f"Failed: {str(e)}")
             sheets_created += 1
     
     # Save workbook

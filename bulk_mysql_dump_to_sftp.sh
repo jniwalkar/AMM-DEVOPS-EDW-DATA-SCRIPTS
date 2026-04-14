@@ -25,8 +25,8 @@ MONTHLY_RUN_DATE=15
 DATA_RETENTION_MONTHS=3
 
 # Email Configuration
-SUMMARY_EMAIL="sahire@semtech.com,sharwani@semtech.com,ataneja@semtech.com,jniwalkar@semtech.com"
-#SUMMARY_EMAIL="sahire@semtech.com"
+#SUMMARY_EMAIL="sharwani@semtech.com,ataneja@semtech.com,jniwalkar@semtech.com"
+SUMMARY_EMAIL="jniwalkar@semtech.com"
 
 PYTHON_SCRIPT="/home/sahire/edw-data-scripts/create_excel_from_tsv.py"
 VENV_DIR="/home/sahire/edw-data-scripts/venv"
