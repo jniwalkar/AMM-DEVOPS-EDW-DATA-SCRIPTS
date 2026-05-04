@@ -25,7 +25,7 @@ MONTHLY_RUN_DATE=15
 DATA_RETENTION_MONTHS=3
 
 # Email Configuration
-SUMMARY_EMAIL="sharwani@semtech.com,ataneja@semtech.com,jniwalkar@semtech.com"
+SUMMARY_EMAIL="sharwani@semtech.com,ataneja@semtech.com,jniwalkar@semtech.com,vghodke@semtech.com"
 #SUMMARY_EMAIL="jniwalkar@semtech.com"
 
 PYTHON_SCRIPT="/home/jniwalkar/AMM-DEVOPS-EDW-DATA-SCRIPTS/create_excel_from_tsv.py"
