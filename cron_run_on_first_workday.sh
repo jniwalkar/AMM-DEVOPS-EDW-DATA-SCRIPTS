@@ -16,5 +16,8 @@ else
 fi
 
 if [[ "$TODAY" -eq "$FIRST_WORKDAY" ]]; then
-    /path/to/your/actual_script.sh
+    /home/jniwalkar/AMM-DEVOPS-EDW-DATA-SCRIPTS/bulk_mysql_dump_to_sftp.sh  --force
+
+else
+    echo "Today is not the first workday of the month. Skipping."
 fi
