@@ -15,7 +15,7 @@ SFTP_REMOTE_DIR="/amm-mysql-dumps"
 
 # SSH Configuration
 SSH_USER="imtadmin"
-SSH_KEY="/home/sahire/.ssh/id_ed25519"
+SSH_KEY="/home/jniwalkar/.ssh/id_ed25519"
 SSH_PORT="2222"
 
 # MySQL Configuration
@@ -28,14 +28,14 @@ DATA_RETENTION_MONTHS=3
 SUMMARY_EMAIL="sharwani@semtech.com,ataneja@semtech.com,jniwalkar@semtech.com"
 #SUMMARY_EMAIL="jniwalkar@semtech.com"
 
-PYTHON_SCRIPT="/home/sahire/edw-data-scripts/create_excel_from_tsv.py"
-VENV_DIR="/home/sahire/edw-data-scripts/venv"
+PYTHON_SCRIPT="/home/jniwalkar/AMM-DEVOPS-EDW-DATA-SCRIPTS/create_excel_from_tsv.py"
+VENV_DIR="/home/jniwalkar/AMM-DEVOPS-EDW-DATA-SCRIPTS/venv"
 
 # Dynamic variables
 DATE=$(date +%Y%m%d_%H%M%S)
 MONTH_YEAR=$(date +%b-%Y)
-LOG_FILE="/home/sahire/edw-data-scripts/logs/mysql_dump_collection_${DATE}.log"
-SUMMARY_FILE="/home/sahire/edw-data-scripts/logs/summary_${DATE}.txt"
+LOG_FILE="/home/jniwalkar/AMM-DEVOPS-EDW-DATA-SCRIPTS/logs/mysql_dump_collection_${DATE}.log"
+SUMMARY_FILE="/home/jniwalkar/AMM-DEVOPS-EDW-DATA-SCRIPTS/logs/summary_${DATE}.txt"
 
 # Server list
 declare -A SERVERS=(
